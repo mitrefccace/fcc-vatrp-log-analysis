@@ -1,0 +1,374 @@
+2021-05-12 15:53:33,925 INFO  ====================================================
+2021-05-12 15:53:33,941 INFO  ============== Starting VATRP v1.2.0.0 =============
+2021-05-12 15:53:33,971 INFO  ======= LinphoneLib Version v3.11.1-1-g79a8f90 =======
+2021-05-12 15:53:33,971 INFO  ====================================================
+2021-05-12 15:53:34,045 INFO  Starting services...
+2021-05-12 15:53:34,046 DEBUG Loading XML configuration from C:\Users\swariyar\AppData\Roaming\VATRP\vatrp_config.xml
+2021-05-12 15:53:34,066 DEBUG Loading accounts from C:\Users\swariyar\AppData\Roaming\VATRP\accounts.xml
+2021-05-12 15:53:56,704 INFO  New account registered. Username -2402457844. Host - ruesip.test.purple.us Port - 5061
+2021-05-12 15:53:56,864 INFO  Linphone service configured for account: 2402457844
+2021-05-12 15:53:57,049 INFO  OS: Microsoft Windows NT 6.2.9200.0 Platform: Win32NT
+2021-05-12 15:53:57,050 DEBUG Main loop started
+2021-05-12 15:53:57,094 INFO  ### Network Connectivity changed to UP
+2021-05-12 15:53:57,100 INFO  Setting Linphone logging level to DEBUG
+2021-05-12 15:53:57,104 INFO  Listening point [405593576] on [sip:[::0]:5060;transport=UDP] destroyed
+2021-05-12 15:53:57,106 INFO  Listening point [405593072] on [sip:[::0]:5060;transport=TCP] destroyed
+2021-05-12 15:53:57,106 INFO  Listening point [405593648] on [sip:[::0]:53799;transport=TLS] destroyed
+2021-05-12 15:53:57,107 INFO  sal_unlisten_ports done
+2021-05-12 15:53:57,107 INFO  Creating listening point [404317944] on [sip:0.0.0.0:5060;transport=UDP]
+2021-05-12 15:53:57,107 INFO  Creating listening point [404317728] on [sip:0.0.0.0:5060;transport=TCP]
+2021-05-12 15:53:57,108 INFO  Creating listening point [288900456] on [sip:0.0.0.0:-1;transport=TLS]
+2021-05-12 15:53:57,108 INFO  Random TCP port is 53800
+2021-05-12 15:53:57,109 INFO  Root ca path set to C:\VATRP\ace-windows-mitre\VATRP.App\bin\Debug\rootca.pem
+2021-05-12 15:53:57,109 INFO  UpdateNetworkingParameters: IPv6 is disabled
+2021-05-12 15:53:57,110 INFO  UpdateNetworkingParameters: Enable STUN. 
+2021-05-12 15:53:57,110 INFO  Sal nat helper [enabled]
+2021-05-12 15:53:57,110 INFO  Sal use rport [enabled]
+2021-05-12 15:53:57,111 INFO  Listening point [404317944] on [sip:0.0.0.0:5060;transport=UDP] destroyed
+2021-05-12 15:53:57,111 INFO  Listening point [404317728] on [sip:0.0.0.0:5060;transport=TCP] destroyed
+2021-05-12 15:53:57,112 INFO  Listening point [288900456] on [sip:0.0.0.0:53800;transport=TLS] destroyed
+2021-05-12 15:53:57,112 INFO  sal_unlisten_ports done
+2021-05-12 15:53:57,112 INFO  Creating listening point [404317944] on [sip:0.0.0.0:5060;transport=UDP]
+2021-05-12 15:53:57,113 INFO  Creating listening point [404317728] on [sip:0.0.0.0:5060;transport=TCP]
+2021-05-12 15:53:57,113 INFO  Creating listening point [288931944] on [sip:0.0.0.0:-1;transport=TLS]
+2021-05-12 15:53:57,114 INFO  Random TCP port is 53801
+2021-05-12 15:53:57,114 INFO  Root ca path set to C:\VATRP\ace-windows-mitre\VATRP.App\bin\Debug\rootca.pem
+2021-05-12 15:53:57,115 INFO  AVPF mode changed to LinphoneAVPFDisabled
+2021-05-12 15:53:57,116 INFO  RTCP mode changing to LinphoneRTCPEnabled
+2021-05-12 15:53:57,117 INFO  Disable send dtmf as SIP info
+2021-05-12 15:53:57,120 INFO  linphone_core_set_playback_gain_db(): no active call.
+2021-05-12 15:53:57,121 INFO  Set preferred video size by name: high-fps
+2021-05-12 15:53:57,121 INFO  Set preferred video size by name: cif
+2021-05-12 15:53:57,122 INFO  Media encryption set to LinphoneMediaEncryptionDTLS
+2021-05-12 15:53:57,123 DEBUG Notify - File not found. Client certificate for SRTP not present in VATRP directory.
+2021-05-12 15:53:57,130 INFO  Table already up to date: duplicate column name: url.
+2021-05-12 15:53:57,130 INFO  Table already up to date: duplicate column name: utc.
+2021-05-12 15:53:57,131 INFO  Table already up to date: duplicate column name: appdata.
+2021-05-12 15:53:57,131 INFO  Table already up to date: duplicate column name: content.
+2021-05-12 15:53:57,131 INFO  Table already up to date: duplicate column name: key_size.
+2021-05-12 15:53:57,131 INFO  Table already up to date: duplicate column name: messageId
+2021-05-12 15:53:57,132 INFO  Table already up to date: duplicate column name: content_type
+2021-05-12 15:53:57,132 INFO  Table already up to date: duplicate column name: is_secured
+2021-05-12 15:53:57,133 INFO  Table already up to date: duplicate column name: call_id.
+2021-05-12 15:53:57,179 INFO  linphone_core_get_call_history(): completed in 46 ms
+2021-05-12 15:53:57,181 INFO  linphone_core_fetch_friends_lists_from_db(): 0 results fetched, completed in 0 ms
+2021-05-12 15:53:57,231 INFO  linphone_core_get_call_history(): completed in 48 ms
+2021-05-12 15:53:57,259 INFO  Listening point [404317944] on [sip:0.0.0.0:5060;transport=UDP] destroyed
+2021-05-12 15:53:57,260 INFO  Listening point [404317728] on [sip:0.0.0.0:5060;transport=TCP] destroyed
+2021-05-12 15:53:57,260 INFO  Listening point [288931944] on [sip:0.0.0.0:53801;transport=TLS] destroyed
+2021-05-12 15:53:57,261 INFO  sal_unlisten_ports done
+2021-05-12 15:53:57,261 INFO  Creating listening point [112934552] on [sip:0.0.0.0:-1;transport=TLS]
+2021-05-12 15:53:57,261 INFO  Random TCP port is 53802
+2021-05-12 15:53:57,262 INFO  Root ca path set to C:\VATRP\ace-windows-mitre\VATRP.App\bin\Debug\rootca.pem
+2021-05-12 15:53:57,263 INFO  Registering SIP account: "Purple VATRP 8 2402457844" <sip:2402457844@ruesip.test.purple.us> Server: sip:esip-rue.test.purple.us:5061;transport=tls
+2021-05-12 15:53:57,266 INFO  linphone_proxy_config_is_server_config_changed : 0
+2021-05-12 15:53:57,266 INFO  Publish params have changed on proxy config [288735128]
+2021-05-12 15:53:57,267 INFO  linphone_proxy_config_is_server_config_changed : 0
+2021-05-12 15:53:57,267 INFO  Publish params have not changed on proxy config [288735128]
+2021-05-12 15:53:57,268 ERROR Exception occurred in GetGeolocation: Access is denied.
+
+Your App does not have permission to access location data. Make sure you have defined ID_CAP_LOCATION in the application manifest and that on your phone, you have turned on location by checking Settings > Location.
+2021-05-12 15:53:57,281 INFO  LinphoneProxyConfig [288735128] about to register (LinphoneCore version: 3.11.1-1-g79a8f90)
+2021-05-12 15:53:57,284 INFO  belle_sip_client_transaction_send_request(): waiting channel to be ready
+2021-05-12 15:53:57,284 INFO  channel [406220464]: starting resolution of esip-rue.test.purple.us
+2021-05-12 15:53:57,284 INFO  channel 406220464: state RES_IN_PROGRESS
+2021-05-12 15:53:57,284 INFO  transaction [289418688] channel state changed to [RES_IN_PROGRESS]
+2021-05-12 15:53:57,336 INFO  Resolver is using DNS server(s):
+2021-05-12 15:53:57,336 INFO  	192.168.1.1
+2021-05-12 15:53:57,338 INFO  resolver_process_data dns_res_check() in progress
+2021-05-12 15:53:57,338 INFO  DNS resolution awaiting response, queued to main loop
+2021-05-12 15:53:57,339 INFO  Neither Expires header nor corresponding Contact header found, checking from original request
+2021-05-12 15:53:57,339 INFO  Refresher [405832328] takes ownership of transaction [289418688]
+2021-05-12 15:53:57,339 INFO  Proxy config [288735128] for identity ["Purple VATRP 8 2402457844" <sip:2402457844@ruesip.test.purple.us>] moving from state [LinphoneRegistrationNone] to [LinphoneRegistrationProgress] on core [288921168]
+2021-05-12 15:53:57,340 INFO  LinphoneService.OnRegistrationChanged called. Call State was:LinphoneRegistrationNone call state changing to LinphoneRegistrationProgress
+2021-05-12 15:53:57,342 INFO  Linphone core [288921168] notified [registration_state_changed]
+2021-05-12 15:53:57,408 INFO  Registration state changed from LinphoneRegistrationNone to LinphoneRegistrationProgress. Reason: LinphoneReasonNone
+2021-05-12 15:53:57,704 DEBUG Saving accounts....
+2021-05-12 15:53:58,347 INFO  resolver_process_data dns_res_check() in progress
+2021-05-12 15:53:58,654 INFO  resolver_process_data dns_res_check() in progress
+2021-05-12 15:53:58,715 INFO  No SRV result for [_sips._tcp.esip-rue.test.purple.us], trying A/AAAA.
+2021-05-12 15:53:58,743 INFO  Resolver is using DNS server(s):
+2021-05-12 15:53:58,743 INFO  	192.168.1.1
+2021-05-12 15:53:58,744 INFO  resolver_process_data dns_res_check() in progress
+2021-05-12 15:53:58,744 INFO  DNS resolution awaiting response, queued to main loop
+2021-05-12 15:53:59,745 INFO  resolver_process_data dns_res_check() in progress
+2021-05-12 15:54:00,074 INFO  esip-rue.test.purple.us resolved to 162.253.29.73
+2021-05-12 15:54:00,074 INFO  esip-rue.test.purple.us resolved to 162.253.29.72
+2021-05-12 15:54:00,074 INFO  channel 406220464: state RES_DONE
+2021-05-12 15:54:00,074 INFO  transaction [289418688] channel state changed to [RES_DONE]
+2021-05-12 15:54:00,074 INFO  channel 406220464: state CONNECTING
+2021-05-12 15:54:00,074 INFO  transaction [289418688] channel state changed to [CONNECTING]
+2021-05-12 15:54:00,075 INFO  Trying to connect to [TLS://162.253.29.73:5061]
+2021-05-12 15:54:00,187 INFO  Channel [406220464]: Connected at TCP level, now doing TLS handshake with cname=esip-rue.test.purple.us
+2021-05-12 15:54:00,187 INFO  Channel [406220464]: SSL handshake in progress...
+2021-05-12 15:54:00,293 INFO  Found certificate depth=[2], flags=[]:
+cert. version     : 3
+serial number     : 00
+issuer name       : C=US, ST=Arizona, L=Scottsdale, O=GoDaddy.com, Inc., CN=Go Daddy Root Certificate Authority - G2
+subject name      : C=US, ST=Arizona, L=Scottsdale, O=GoDaddy.com, Inc., CN=Go Daddy Root Certificate Authority - G2
+issued  on        : 2009-09-01 00:00:00
+expires on        : 2037-12-31 23:59:59
+signed using      : RSA with SHA-256
+RSA key size      : 2048 bits
+basic constraints : CA=true
+key usage         : Key Cert Sign, CRL Sign
+
+2021-05-12 15:54:00,294 INFO  Found certificate depth=[1], flags=[]:
+cert. version     : 3
+serial number     : 07
+issuer name       : C=US, ST=Arizona, L=Scottsdale, O=GoDaddy.com, Inc., CN=Go Daddy Root Certificate Authority - G2
+subject name      : C=US, ST=Arizona, L=Scottsdale, O=GoDaddy.com, Inc., OU=http://certs.godaddy.com/repository/, CN=Go Daddy Secure Certificate Authority - G2
+issued  on        : 2011-05-03 07:00:00
+expires on        : 2031-05-03 07:00:00
+signed using      : RSA with SHA-256
+RSA key size      : 2048 bits
+basic constraints : CA=true
+key usage         : Key Cert Sign, CRL Sign
+
+2021-05-12 15:54:00,294 INFO  Found certificate depth=[0], flags=[]:
+cert. version     : 3
+serial number     : DA:8B:43:5C:2E:FE:49:D8
+issuer name       : C=US, ST=Arizona, L=Scottsdale, O=GoDaddy.com, Inc., OU=http://certs.godaddy.com/repository/, CN=Go Daddy Secure Certificate Authority - G2
+subject name      : OU=Domain Control Validated, CN=esip-rue.test.purple.us
+issued  on        : 2019-07-17 09:34:18
+expires on        : 2021-07-17 09:34:18
+signed using      : RSA with SHA-256
+RSA key size      : 2048 bits
+basic constraints : CA=false
+subject alt name  : esip-rue.test.purple.us, www.esip-rue.test.purple.us
+key usage         : Digital Signature, Key Encipherment
+ext key usage     : TLS Web Server Authentication, TLS Web Client Authentication
+
+2021-05-12 15:54:00,296 INFO  Channel [406220464]: SSL handshake in progress...
+2021-05-12 15:54:00,400 INFO  Channel [406220464]: SSL handshake finished, SSL version is [TLSv1.2], selected ciphersuite is [TLS-RSA-WITH-AES-256-GCM-SHA384]
+2021-05-12 15:54:00,400 INFO  Channel has local address 192.168.1.178:53804
+2021-05-12 15:54:00,400 INFO  channel 406220464: state READY
+2021-05-12 15:54:00,400 INFO  transaction [289418688] channel state changed to [READY]
+2021-05-12 15:54:00,400 INFO  Changing [client] [REGISTER] transaction [289418688], from state [INIT] to [TRYING]
+2021-05-12 15:54:00,401 INFO  channel [406220464]: message sent to [TLS://esip-rue.test.purple.us:5061], size: [662] bytes
+REGISTER sip:ruesip.test.purple.us SIP/2.0
+Via: SIP/2.0/TLS 192.168.1.178:53804;alias;branch=z9hG4bK.5eKyHqdVg;rport
+From: "Purple VATRP 8 2402457844" <sip:2402457844@ruesip.test.purple.us>;tag=ASG436kJb
+To: "Purple VATRP 8 2402457844" <sip:2402457844@ruesip.test.purple.us>
+CSeq: 20 REGISTER
+Call-ID: nFTAmmp9iq
+Max-Forwards: 70
+Supported: replaces, outbound
+Accept: application/sdp
+Accept: text/plain
+Accept: application/vnd.gsma.rcs-ft-http+xml
+Contact: <sip:2402457844@192.168.1.178:53804;transport=tls>;+sip.instance="<urn:uuid:0cb22295-e1d0-4745-bc43-f34b9b4adcb1>"
+Expires: 280
+User-Agent: VATRP/1.2.0 (belle-sip/1.6.1)
+Content-Length: 0
+
+
+2021-05-12 15:54:00,503 INFO  channel [406220464]: received [532] new bytes from [TLS://esip-rue.test.purple.us:5061]:
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/TLS 192.168.1.178:53804;received=71.179.24.186;alias;branch=z9hG4bK.5eKyHqdVg;rport=53804
+From: "Purple VATRP 8 2402457844" <sip:2402457844@ruesip.test.purple.us>;tag=ASG436kJb
+To: "Purple VATRP 8 2402457844" <sip:2402457844@ruesip.test.purple.us>;tag=a95b45d2741db6807ee5af7c6cbf5f51.a7cb
+CSeq: 20 REGISTER
+Call-ID: nFTAmmp9iq
+WWW-Authenticate: Digest realm="ruesip.test.purple.us", nonce="YJwzgmCcMlaQ2DRe0BPYhC9guoGphal5"
+Server: kamailio (4.3.5 (x86_64/linux))
+Content-Length: 0
+
+
+2021-05-12 15:54:00,505 INFO  channel [406220464] [532] bytes parsed
+2021-05-12 15:54:00,506 INFO  channel [406220464]: discovered public ip and port are [71.179.24.186:53804]
+2021-05-12 15:54:00,506 INFO  Found transaction matching response.
+2021-05-12 15:54:00,506 INFO  Changing [client] [REGISTER] transaction [289418688], from state [TRYING] to [COMPLETED]
+2021-05-12 15:54:00,506 INFO  linphone_core_find_auth_info(): returning auth info username=2402457844, realm=
+2021-05-12 15:54:00,506 INFO  Auth info found for [Mitre8] realm [ruesip.test.purple.us]
+2021-05-12 15:54:00,506 INFO  Changing [client] [REGISTER] transaction [406600080], from state [INIT] to [TRYING]
+2021-05-12 15:54:00,507 INFO  channel [406220464]: message sent to [TLS://esip-rue.test.purple.us:5061], size: [856] bytes
+REGISTER sip:ruesip.test.purple.us SIP/2.0
+Via: SIP/2.0/TLS 192.168.1.178:53804;alias;branch=z9hG4bK.epvwSoFdQ;rport
+From: "Purple VATRP 8 2402457844" <sip:2402457844@ruesip.test.purple.us>;tag=ASG436kJb
+To: "Purple VATRP 8 2402457844" <sip:2402457844@ruesip.test.purple.us>
+CSeq: 21 REGISTER
+Call-ID: nFTAmmp9iq
+Max-Forwards: 70
+Supported: replaces, outbound
+Accept: application/sdp
+Accept: text/plain
+Accept: application/vnd.gsma.rcs-ft-http+xml
+Contact: <sip:2402457844@71.179.24.186:53804;transport=tls>;+sip.instance="<urn:uuid:0cb22295-e1d0-4745-bc43-f34b9b4adcb1>"
+Expires: 280
+User-Agent: VATRP/1.2.0 (belle-sip/1.6.1)
+Content-Length: 0
+Authorization:  Digest realm="ruesip.test.purple.us", nonce="YJwzgmCcMlaQ2DRe0BPYhC9guoGphal5", username="Mitre8",  uri="sip:ruesip.test.purple.us", response="14ae71c567daceb32c8915294f8f6fe3"
+
+
+2021-05-12 15:54:00,507 INFO  Changing [client] [REGISTER] transaction [289418688], from state [COMPLETED] to [TERMINATED]
+2021-05-12 15:54:00,507 INFO  Client internal REGISTER transaction [289418688] terminated
+2021-05-12 15:54:00,610 INFO  channel [406220464]: received [638] new bytes from [TLS://esip-rue.test.purple.us:5061]:
+SIP/2.0 200 OK
+Via: SIP/2.0/TLS 192.168.1.178:53804;received=71.179.24.186;alias;branch=z9hG4bK.epvwSoFdQ;rport=53804
+From: "Purple VATRP 8 2402457844" <sip:2402457844@ruesip.test.purple.us>;tag=ASG436kJb
+To: "Purple VATRP 8 2402457844" <sip:2402457844@ruesip.test.purple.us>;tag=a95b45d2741db6807ee5af7c6cbf5f51.9033
+CSeq: 21 REGISTER
+Call-ID: nFTAmmp9iq
+Contact: <sip:2402457844@71.179.24.186:53804;transport=tls;alias=71.179.24.186~53804~3>;expires=280;received="sip:162.253.29.73:33512;transport=tcp";+sip.instance="<urn:uuid:0cb22295-e1d0-4745-bc43-f34b9b4adcb1>"
+Server: kamailio (4.3.5 (x86_64/linux))
+Content-Length: 0
+
+
+2021-05-12 15:54:00,611 INFO  channel [406220464] [638] bytes parsed
+2021-05-12 15:54:00,612 INFO  Found transaction matching response.
+2021-05-12 15:54:00,612 INFO  Changing [client] [REGISTER] transaction [406600080], from state [TRYING] to [COMPLETED]
+2021-05-12 15:54:00,612 INFO  Refresher [405832328]:  has no contact for request [405812848].
+2021-05-12 15:54:00,612 INFO  Refresher[405832328]: scheduling next timer in 252000 ms for purpose [normal refresh]
+2021-05-12 15:54:00,612 INFO  Register refresher [200] reason [OK] for proxy [<sip:esip-rue.test.purple.us:5061;transport=tls>]
+2021-05-12 15:54:00,612 INFO  Proxy config [288735128] for identity ["Purple VATRP 8 2402457844" <sip:2402457844@ruesip.test.purple.us>] moving from state [LinphoneRegistrationProgress] to [LinphoneRegistrationOk] on core [288921168]
+2021-05-12 15:54:00,613 INFO  Updating friends for identity ["Purple VATRP 8 2402457844" <sip:2402457844@ruesip.test.purple.us>] on core [288921168]
+2021-05-12 15:54:00,613 INFO  LinphoneService.OnRegistrationChanged called. Call State was:LinphoneRegistrationProgress call state changing to LinphoneRegistrationOk
+2021-05-12 15:54:00,614 INFO  Linphone core [288921168] notified [registration_state_changed]
+2021-05-12 15:54:00,614 INFO  Changing [client] [REGISTER] transaction [406600080], from state [COMPLETED] to [TERMINATED]
+2021-05-12 15:54:00,614 INFO  Client internal REGISTER transaction [406600080] terminated
+2021-05-12 15:54:00,614 INFO  Registration state changed from LinphoneRegistrationProgress to LinphoneRegistrationOk. Reason: LinphoneReasonNone
+2021-05-12 15:54:05,361 INFO  speex_lib_ctl init with neon ? 0
+2021-05-12 15:54:05,363 INFO  configuring resampler output to rate=[8000], nchannels=[1]
+2021-05-12 15:54:05,363 INFO  ms_filter_link: MSFilePlayer:404386248,0-->MSDtmfGen:404386376,0
+2021-05-12 15:54:05,363 INFO  ms_filter_link: MSDtmfGen:404386376,0-->MSResample:404386568,0
+2021-05-12 15:54:05,363 INFO  ms_filter_link: MSResample:404386568,0-->MSWinSndWrite:404387400,0
+2021-05-12 15:54:05,364 INFO  Initializing speex resampler in mode [voip] 
+2021-05-12 15:54:05,364 INFO  win32 timer resolution set to 2 ms
+2021-05-12 15:54:14,314 INFO  linphone_core_set_playback_gain_db(): no active call.
+2021-05-12 15:54:14,332 INFO  ms_filter_unlink: MSFilePlayer:404386248,0-->MSDtmfGen:404386376,0
+2021-05-12 15:54:14,332 INFO  ms_filter_unlink: MSDtmfGen:404386376,0-->MSResample:404386568,0
+2021-05-12 15:54:14,332 INFO  ms_filter_unlink: MSResample:404386568,0-->MSWinSndWrite:404387400,0
+2021-05-12 15:54:14,336 INFO  Ring MSTicker thread exiting
+2021-05-12 15:54:14,336 INFO  Found media local-ip from signaling.
+2021-05-12 15:54:14,337 INFO  New LinphoneCall [406778992] initialized (LinphoneCore version: 3.11.1-1-g79a8f90)
+2021-05-12 15:54:14,338 INFO  Call 406778992: moving from state LinphoneCallIdle to LinphoneCallOutgoingInit
+2021-05-12 15:54:14,340 INFO  OnCallStateChanged: State - LinphoneCallOutgoingInit, CallPtr - 406778992, Message: Starting outgoing call
+2021-05-12 15:54:14,341 INFO  Call not found. Adding new call into list. ID - 406778992 Calls count: 0
+2021-05-12 15:54:14,351 INFO  Linphone core [288921168] notified [call_state_changed]
+2021-05-12 15:54:14,351 INFO  Call [406778992], stream type [audio], multicast role is [inactive]
+2021-05-12 15:54:14,352 INFO  RtpSession bound to [0.0.0.0] ports [7078] [7079]
+2021-05-12 15:54:14,353 INFO  rtp_session_enable_network_simulation:DISABLING NETWORK SIMULATION
+2021-05-12 15:54:14,356 INFO  CallStateChanged: State - Trying. Call: 406778992
+2021-05-12 15:54:14,360 INFO  Retrieve certificate with CN=linphone-dtls-default-identity successful
+
+2021-05-12 15:54:14,360 INFO  Start DTLS media stream context in stream session [407875760]
+2021-05-12 15:54:14,361 INFO  Creating DTLS-SRTP engine on session [408145472] as unset role
+2021-05-12 15:54:14,373 INFO  Configured srtp crypto suite: AES_CM_128_HMAC_SHA1_80 
+2021-05-12 15:54:14,373 INFO  Configured srtp crypto suite: AES_CM_128_HMAC_SHA1_32 
+2021-05-12 15:54:14,374 INFO  Configured srtp crypto suite: AES_256_CM_HMAC_SHA1_80 
+2021-05-12 15:54:14,374 INFO  Configured srtp crypto suite: AES_256_CM_HMAC_SHA1_32 
+2021-05-12 15:54:14,374 INFO  Creating ZRTP engine on rtp session [408145472] ssrc 0xD32D9122
+2021-05-12 15:54:14,375 INFO  Setting DSCP to 46 for MSAudio stream.
+2021-05-12 15:54:14,375 INFO  check OS support for qwave.lib
+2021-05-12 15:54:14,376 INFO  Equalizer location: hp
+2021-05-12 15:54:14,378 INFO  cannot set noise gate mode to [0] because no volume send
+2021-05-12 15:54:14,379 INFO  Call [406778992], stream type [video], multicast role is [inactive]
+2021-05-12 15:54:14,379 INFO  RtpSession bound to [0.0.0.0] ports [9078] [9079]
+2021-05-12 15:54:14,379 INFO  rtp_session_enable_network_simulation:DISABLING NETWORK SIMULATION
+2021-05-12 15:54:14,387 INFO  Retrieve certificate with CN=linphone-dtls-default-identity successful
+
+2021-05-12 15:54:14,387 INFO  Start DTLS media stream context in stream session [407639096]
+2021-05-12 15:54:14,388 INFO  Creating DTLS-SRTP engine on session [408092976] as unset role
+2021-05-12 15:54:14,401 INFO  Initializing multistream ZRTP context on rtp session [408092976] ssrc 0x279C253D
+2021-05-12 15:54:14,401 INFO  Setting DSCP to 46 for MSVideo stream.
+2021-05-12 15:54:14,401 INFO  check OS support for qwave.lib
+2021-05-12 15:54:14,402 INFO  Call [406778992], stream type [text], multicast role is [inactive]
+2021-05-12 15:54:14,402 INFO  RtpSession bound to [0.0.0.0] ports [11078] [11079]
+2021-05-12 15:54:14,403 INFO  rtp_session_enable_network_simulation:DISABLING NETWORK SIMULATION
+2021-05-12 15:54:14,412 INFO  Retrieve certificate with CN=linphone-dtls-default-identity successful
+
+2021-05-12 15:54:14,413 INFO  Start DTLS media stream context in stream session [408227312]
+2021-05-12 15:54:14,415 INFO  Creating DTLS-SRTP engine on session [408222792] as unset role
+2021-05-12 15:54:14,430 INFO  Contact has been fixed using proxy
+2021-05-12 15:54:14,430 INFO  Found media local-ip from signaling.
+2021-05-12 15:54:14,430 INFO  ms_filter_link: MSRtpRecv:406189768,0-->MSVoidSink:406189960,0
+2021-05-12 15:54:14,431 INFO  win32 timer resolution set to 2 ms
+2021-05-12 15:54:14,432 INFO  ["Purple VATRP 8 2402457844" <sip:2402457844@ruesip.test.purple.us>] calling [<sip:2402456844@ruesip.test.purple.us;user=phone>] on op [291119776]
+2021-05-12 15:54:14,432 INFO  Transport is not specified, using tls because UDP is not available.
+2021-05-12 15:54:14,432 INFO  belle_sip_client_transaction_send_request(): waiting channel to be ready
+2021-05-12 15:54:14,433 INFO  channel [408819024]: starting resolution of ruesip.test.purple.us
+2021-05-12 15:54:14,433 INFO  channel 408819024: state RES_IN_PROGRESS
+2021-05-12 15:54:14,433 INFO  transaction [405747848] channel state changed to [RES_IN_PROGRESS]
+2021-05-12 15:54:14,469 INFO  Resolver is using DNS server(s):
+2021-05-12 15:54:14,469 INFO  	192.168.1.1
+2021-05-12 15:54:14,470 INFO  resolver_process_data dns_res_check() in progress
+2021-05-12 15:54:14,470 INFO  DNS resolution awaiting response, queued to main loop
+2021-05-12 15:54:14,470 INFO  Call 406778992: moving from state LinphoneCallOutgoingInit to LinphoneCallOutgoingProgress
+2021-05-12 15:54:14,471 INFO  OnCallStateChanged: State - LinphoneCallOutgoingProgress, CallPtr - 406778992, Message: Outgoing call in progress
+2021-05-12 15:54:14,471 INFO  Linphone core [288921168] notified [call_state_changed]
+2021-05-12 15:54:14,472 INFO  CallStateChanged: State - Trying. Call: 406778992
+2021-05-12 15:54:15,455 INFO  resolver_process_data dns_res_check() in progress
+2021-05-12 15:54:16,455 INFO  resolver_process_data dns_res_check() in progress
+2021-05-12 15:54:17,457 INFO  resolver_process_data dns_res_check() in progress
+2021-05-12 15:54:18,174 INFO  resolver_process_data dns_res_check() in progress
+2021-05-12 15:54:18,194 INFO  resolver_process_data dns_res_check() in progress
+2021-05-12 15:54:18,215 INFO  No SRV result for [_sips._tcp.ruesip.test.purple.us], trying A/AAAA.
+2021-05-12 15:54:18,239 INFO  Resolver is using DNS server(s):
+2021-05-12 15:54:18,239 INFO  	192.168.1.1
+2021-05-12 15:54:18,240 INFO  resolver_process_data dns_res_check() in progress
+2021-05-12 15:54:18,240 INFO  DNS resolution awaiting response, queued to main loop
+2021-05-12 15:54:18,261 INFO  ruesip.test.purple.us resolved to 162.253.29.20
+2021-05-12 15:54:18,261 INFO  channel 408819024: state RES_DONE
+2021-05-12 15:54:18,261 INFO  transaction [405747848] channel state changed to [RES_DONE]
+2021-05-12 15:54:18,261 INFO  channel 408819024: state CONNECTING
+2021-05-12 15:54:18,262 INFO  transaction [405747848] channel state changed to [CONNECTING]
+2021-05-12 15:54:18,262 INFO  Trying to connect to [TLS://162.253.29.20:5061]
+2021-05-12 15:54:19,383 INFO  Terminating call for 2402456844. 406778992
+2021-05-12 15:54:19,387 INFO  Terminate Call 406778992
+2021-05-12 15:54:19,387 INFO  CallStateChanged: State - Closed. Call: 406778992
+2021-05-12 15:54:19,387 INFO  CallStateChanged: Result Code - 0. Message: NotReachable Call: 406778992
+2021-05-12 15:54:19,396 INFO  Terminate Call removed from list. Call - 406778992. Total calls in list: 0
+2021-05-12 15:54:19,413 INFO  Terminate call [406778992] which is currently in state LinphoneCallOutgoingProgress
+2021-05-12 15:54:19,413 INFO  ms_filter_unlink: MSRtpRecv:406189768,0-->MSVoidSink:406189960,0
+2021-05-12 15:54:19,413 INFO  ===========================================================
+2021-05-12 15:54:19,413 INFO                    FILTER USAGE STATISTICS                  
+2021-05-12 15:54:19,414 INFO  Name                Count     Time/tick (ms)      CPU Usage
+2021-05-12 15:54:19,414 INFO  -----------------------------------------------------------
+2021-05-12 15:54:19,414 INFO  ---------MSVoidSink --------0 ------------------0 ---------0
+2021-05-12 15:54:19,414 INFO  ----------MSRtpRecv ------499 ------------------0 ---------0
+2021-05-12 15:54:19,414 INFO  ----------MSItcSink --------0 ------------------0 ---------0
+2021-05-12 15:54:19,414 INFO  --------------MSTee --------0 ------------------0 ---------0
+2021-05-12 15:54:19,414 INFO  ----------MSSpeexEC --------0 ------------------0 ---------0
+2021-05-12 15:54:19,414 INFO  ----------MSRtpSend --------0 ------------------0 ---------0
+2021-05-12 15:54:19,414 INFO  ===========================================================
+2021-05-12 15:54:19,415 INFO  ===========================================================
+2021-05-12 15:54:19,415 INFO                    FILTER USAGE STATISTICS                  
+2021-05-12 15:54:19,415 INFO  Name                Count     Time/tick (ms)      CPU Usage
+2021-05-12 15:54:19,415 INFO  -----------------------------------------------------------
+2021-05-12 15:54:19,415 INFO  ---------MSVoidSink --------0 ------------------0 ---------0
+2021-05-12 15:54:19,415 INFO  ----------MSRtpRecv ------499 ------------------0 ---------0
+2021-05-12 15:54:19,415 INFO  ----------MSItcSink --------0 ------------------0 ---------0
+2021-05-12 15:54:19,415 INFO  --------------MSTee --------0 ------------------0 ---------0
+2021-05-12 15:54:19,415 INFO  ----------MSSpeexEC --------0 ------------------0 ---------0
+2021-05-12 15:54:19,415 INFO  ----------MSRtpSend --------0 ------------------0 ---------0
+2021-05-12 15:54:19,416 INFO  ===========================================================
+2021-05-12 15:54:19,416 INFO  Call 406778992: moving from state LinphoneCallOutgoingProgress to LinphoneCallEnd
+2021-05-12 15:54:19,416 INFO  Notifying soundcard that we don't need it anymore for calls.
+2021-05-12 15:54:19,417 INFO  Stopping ZRTP context on session [0]
+2021-05-12 15:54:19,417 INFO  ZRTP context destroyed
+2021-05-12 15:54:19,417 INFO  DTLS-SRTP context destroyed
+2021-05-12 15:54:19,421 INFO  MSAudio MSTicker thread exiting
+2021-05-12 15:54:19,421 INFO  Stopping ZRTP context on session [0]
+2021-05-12 15:54:19,421 INFO  ZRTP context destroyed
+2021-05-12 15:54:19,421 INFO  DTLS-SRTP context destroyed
+2021-05-12 15:54:19,421 INFO  DTLS-SRTP context destroyed
+2021-05-12 15:54:19,444 INFO  Linphone core [288921168] notified [call_log_updated]
+2021-05-12 15:54:19,445 INFO  Resetting the current call
+2021-05-12 15:54:19,445 INFO  OnCallStateChanged: State - LinphoneCallEnd, CallPtr - 406778992, Message: Call terminated
+2021-05-12 15:54:19,445 INFO  Linphone core [288921168] notified [call_state_changed]
+2021-05-12 15:54:39,281 INFO  channel 408819024: state ERROR
+2021-05-12 15:54:39,301 INFO  transaction [405747848] channel state changed to [ERROR]
+2021-05-12 15:54:39,301 INFO  Notifying soundcard that we don't need it anymore for calls.
+2021-05-12 15:54:39,301 INFO  Call 406778992: moving from state LinphoneCallEnd to LinphoneCallReleased
+2021-05-12 15:54:39,302 INFO  OnCallStateChanged: State - LinphoneCallReleased, CallPtr - 406778992, Message: Call released
+2021-05-12 15:54:39,302 INFO     calling linphone_call_unref
+2021-05-12 15:54:39,302 INFO     passed unref
+2021-05-12 15:54:39,302 INFO  Linphone core [288921168] notified [call_state_changed]
+2021-05-12 15:54:39,302 INFO  Call [406778992] freed.
+2021-05-12 15:54:39,303 INFO  op [291119776] : set_or_update_dialog() current=[0] new=[0]
+2021-05-12 15:54:39,303 INFO  Channel [408819024] destroyed
+2021-05-12 15:54:55,311 INFO  Changing [client] [INVITE] transaction [405747848], from state [INIT] to [TERMINATED]
+2021-05-12 15:54:55,311 INFO  Client INVITE transaction [405747848] terminated
+2021-05-12 15:54:55,311 INFO  Destroying op [291119776] of type [SalOpCall]
+2021-05-12 15:54:55,311 INFO  Transaction [405747848] deleted

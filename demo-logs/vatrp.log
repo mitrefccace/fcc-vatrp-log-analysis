@@ -1,0 +1,1753 @@
+2021-05-04 12:15:59,916 INFO  ====================================================
+2021-05-04 12:15:59,935 INFO  ============== Starting VATRP v1.2.0.0 =============
+2021-05-04 12:15:59,973 INFO  ======= LinphoneLib Version v3.11.1-1-g79a8f90 =======
+2021-05-04 12:15:59,973 INFO  ====================================================
+2021-05-04 12:16:00,088 INFO  Starting services...
+2021-05-04 12:16:00,089 DEBUG Loading XML configuration from C:\Users\swariyar\AppData\Roaming\VATRP\vatrp_config.xml
+2021-05-04 12:16:00,108 DEBUG Loading accounts from C:\Users\swariyar\AppData\Roaming\VATRP\accounts.xml
+2021-05-04 12:16:27,663 INFO  New account registered. Username -suwasuwa. Host - sip.linphone.org Port - 5061
+2021-05-04 12:16:27,798 INFO  Linphone service configured for account: suwasuwa
+2021-05-04 12:16:27,942 INFO  OS: Microsoft Windows NT 6.2.9200.0 Platform: Win32NT
+2021-05-04 12:16:27,944 DEBUG Main loop started
+2021-05-04 12:16:27,954 INFO  Setting Linphone logging level to DEBUG
+2021-05-04 12:16:27,958 INFO  Listening point [286024656] on [sip:[::0]:5060;transport=UDP] destroyed
+2021-05-04 12:16:27,962 INFO  Listening point [286022928] on [sip:[::0]:5060;transport=TCP] destroyed
+2021-05-04 12:16:27,962 INFO  Listening point [286023504] on [sip:[::0]:52356;transport=TLS] destroyed
+2021-05-04 12:16:27,962 INFO  sal_unlisten_ports done
+2021-05-04 12:16:27,962 INFO  Creating listening point [286024656] on [sip:0.0.0.0:5060;transport=UDP]
+2021-05-04 12:16:27,963 INFO  Creating listening point [286023288] on [sip:0.0.0.0:5060;transport=TCP]
+2021-05-04 12:16:27,963 INFO  Creating listening point [286023504] on [sip:0.0.0.0:-1;transport=TLS]
+2021-05-04 12:16:27,964 INFO  Random TCP port is 52357
+2021-05-04 12:16:27,964 INFO  Root ca path set to C:\VATRP\ace-windows-mitre\VATRP.App\bin\Debug\rootca.pem
+2021-05-04 12:16:27,965 INFO  UpdateNetworkingParameters: IPv6 is disabled
+2021-05-04 12:16:27,965 INFO  UpdateNetworkingParameters: Enable STUN. 
+2021-05-04 12:16:27,965 INFO  Sal nat helper [enabled]
+2021-05-04 12:16:27,966 INFO  Sal use rport [enabled]
+2021-05-04 12:16:27,966 INFO  New local ip address is 192.168.1.178
+2021-05-04 12:16:27,966 INFO  SIP network reachability state is now [UP]
+2021-05-04 12:16:27,966 INFO  Media network reachability state is now [UP]
+2021-05-04 12:16:27,967 INFO  Listening point [286024656] on [sip:0.0.0.0:5060;transport=UDP] destroyed
+2021-05-04 12:16:27,967 INFO  Listening point [286023288] on [sip:0.0.0.0:5060;transport=TCP] destroyed
+2021-05-04 12:16:27,967 INFO  Listening point [286023504] on [sip:0.0.0.0:52357;transport=TLS] destroyed
+2021-05-04 12:16:27,967 INFO  sal_unlisten_ports done
+2021-05-04 12:16:27,968 INFO  Creating listening point [286023504] on [sip:0.0.0.0:5060;transport=UDP]
+2021-05-04 12:16:27,968 INFO  Creating listening point [286023288] on [sip:0.0.0.0:5060;transport=TCP]
+2021-05-04 12:16:27,969 INFO  Creating listening point [286025304] on [sip:0.0.0.0:-1;transport=TLS]
+2021-05-04 12:16:27,969 INFO  Random TCP port is 52358
+2021-05-04 12:16:27,969 INFO  Root ca path set to C:\VATRP\ace-windows-mitre\VATRP.App\bin\Debug\rootca.pem
+2021-05-04 12:16:27,971 INFO  AVPF mode changed to LinphoneAVPFDisabled
+2021-05-04 12:16:27,971 INFO  RTCP mode changing to LinphoneRTCPEnabled
+2021-05-04 12:16:27,972 INFO  Disable send dtmf as SIP info
+2021-05-04 12:16:27,974 INFO  linphone_core_set_playback_gain_db(): no active call.
+2021-05-04 12:16:27,976 INFO  Set preferred video size by name: high-fps
+2021-05-04 12:16:27,976 INFO  Set preferred video size by name: cif
+2021-05-04 12:16:27,977 INFO  Media encryption set to LinphoneMediaEncryptionDTLS
+2021-05-04 12:16:27,977 DEBUG Notify - File not found. Client certificate for SRTP not present in VATRP directory.
+2021-05-04 12:16:27,982 INFO  Table already up to date: duplicate column name: url.
+2021-05-04 12:16:27,982 INFO  Table already up to date: duplicate column name: utc.
+2021-05-04 12:16:27,982 INFO  Table already up to date: duplicate column name: appdata.
+2021-05-04 12:16:27,983 INFO  Table already up to date: duplicate column name: content.
+2021-05-04 12:16:27,983 INFO  Table already up to date: duplicate column name: key_size.
+2021-05-04 12:16:27,983 INFO  Table already up to date: duplicate column name: messageId
+2021-05-04 12:16:27,984 INFO  Table already up to date: duplicate column name: content_type
+2021-05-04 12:16:27,984 INFO  Table already up to date: duplicate column name: is_secured
+2021-05-04 12:16:27,985 INFO  Table already up to date: duplicate column name: call_id.
+2021-05-04 12:16:27,986 INFO  ### Network Connectivity changed to UP
+2021-05-04 12:16:27,986 INFO  Linphone core [112522800] notified [network_reachable]
+2021-05-04 12:16:27,991 INFO  linphone_core_get_call_history(): completed in 5 ms
+2021-05-04 12:16:27,992 INFO  linphone_core_fetch_friends_lists_from_db(): 0 results fetched, completed in 0 ms
+2021-05-04 12:16:27,999 INFO  linphone_core_get_call_history(): completed in 5 ms
+2021-05-04 12:16:28,069 INFO  Listening point [286023504] on [sip:0.0.0.0:5060;transport=UDP] destroyed
+2021-05-04 12:16:28,069 INFO  Listening point [286023288] on [sip:0.0.0.0:5060;transport=TCP] destroyed
+2021-05-04 12:16:28,069 INFO  Listening point [286025304] on [sip:0.0.0.0:52358;transport=TLS] destroyed
+2021-05-04 12:16:28,070 INFO  sal_unlisten_ports done
+2021-05-04 12:16:28,070 INFO  Creating listening point [286026456] on [sip:0.0.0.0:-1;transport=UDP]
+2021-05-04 12:16:28,070 INFO  Random UDP port is 64541
+2021-05-04 12:16:28,071 INFO  Creating listening point [286026096] on [sip:0.0.0.0:-1;transport=TCP]
+2021-05-04 12:16:28,071 INFO  Random TCP port is 52360
+2021-05-04 12:16:28,071 INFO  Creating listening point [286026528] on [sip:0.0.0.0:-1;transport=TLS]
+2021-05-04 12:16:28,072 INFO  Random TCP port is 52361
+2021-05-04 12:16:28,072 INFO  Root ca path set to C:\VATRP\ace-windows-mitre\VATRP.App\bin\Debug\rootca.pem
+2021-05-04 12:16:28,073 INFO  Registering SIP account: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org> Server: sip:sip.linphone.org:5061;transport=tls
+2021-05-04 12:16:28,073 DEBUG Notify - File not found. Client TLS certificate for SIP not present in VATRP directory.
+2021-05-04 12:16:28,075 INFO  linphone_proxy_config_is_server_config_changed : 0
+2021-05-04 12:16:28,075 INFO  Publish params have changed on proxy config [113088776]
+2021-05-04 12:16:28,076 INFO  linphone_proxy_config_is_server_config_changed : 0
+2021-05-04 12:16:28,076 INFO  Publish params have not changed on proxy config [113088776]
+2021-05-04 12:16:28,078 ERROR Exception occurred in GetGeolocation: Access is denied.
+
+Your App does not have permission to access location data. Make sure you have defined ID_CAP_LOCATION in the application manifest and that on your phone, you have turned on location by checking Settings > Location.
+2021-05-04 12:16:28,088 INFO  LinphoneProxyConfig [113088776] about to register (LinphoneCore version: 3.11.1-1-g79a8f90)
+2021-05-04 12:16:28,090 INFO  belle_sip_client_transaction_send_request(): waiting channel to be ready
+2021-05-04 12:16:28,090 INFO  channel [286956432]: starting resolution of sip.linphone.org
+2021-05-04 12:16:28,091 INFO  channel 286956432: state RES_IN_PROGRESS
+2021-05-04 12:16:28,091 INFO  transaction [284730600] channel state changed to [RES_IN_PROGRESS]
+2021-05-04 12:16:28,131 INFO  Resolver is using DNS server(s):
+2021-05-04 12:16:28,131 INFO  	192.168.1.1
+2021-05-04 12:16:28,132 INFO  resolver_process_data dns_res_check() in progress
+2021-05-04 12:16:28,132 INFO  DNS resolution awaiting response, queued to main loop
+2021-05-04 12:16:28,132 INFO  Neither Expires header nor corresponding Contact header found, checking from original request
+2021-05-04 12:16:28,133 INFO  Refresher [23478704] takes ownership of transaction [284730600]
+2021-05-04 12:16:28,133 INFO  Proxy config [113088776] for identity ["Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>] moving from state [LinphoneRegistrationNone] to [LinphoneRegistrationProgress] on core [112522800]
+2021-05-04 12:16:28,133 INFO  LinphoneService.OnRegistrationChanged called. Call State was:LinphoneRegistrationNone call state changing to LinphoneRegistrationProgress
+2021-05-04 12:16:28,135 INFO  Linphone core [112522800] notified [registration_state_changed]
+2021-05-04 12:16:28,176 INFO  SRV _sips._tcp.sip.linphone.org resolved to [target:sip6.linphone.org. port:5223 prio:0 weight:100]
+2021-05-04 12:16:28,177 INFO  SRV _sips._tcp.sip.linphone.org resolved to [target:sip1.linphone.org. port:5223 prio:10 weight:100]
+2021-05-04 12:16:28,177 INFO  SRV _sips._tcp.sip.linphone.org resolved to [target:sip6.linphone.org. port:443 prio:20 weight:100]
+2021-05-04 12:16:28,177 INFO  Starting A/AAAA query for srv result [sip6.linphone.org.]
+2021-05-04 12:16:28,206 INFO  Resolver is using DNS server(s):
+2021-05-04 12:16:28,206 INFO  	192.168.1.1
+2021-05-04 12:16:28,207 INFO  resolver_process_data dns_res_check() in progress
+2021-05-04 12:16:28,207 INFO  DNS resolution awaiting response, queued to main loop
+2021-05-04 12:16:28,207 INFO  Starting A/AAAA query for srv result [sip1.linphone.org.]
+2021-05-04 12:16:28,220 INFO  Registration state changed from LinphoneRegistrationNone to LinphoneRegistrationProgress. Reason: LinphoneReasonNone
+2021-05-04 12:16:28,236 INFO  Resolver is using DNS server(s):
+2021-05-04 12:16:28,237 INFO  	192.168.1.1
+2021-05-04 12:16:28,237 INFO  resolver_process_data dns_res_check() in progress
+2021-05-04 12:16:28,238 INFO  DNS resolution awaiting response, queued to main loop
+2021-05-04 12:16:28,238 INFO  Starting A/AAAA query for srv result [sip6.linphone.org.]
+2021-05-04 12:16:28,271 INFO  Resolver is using DNS server(s):
+2021-05-04 12:16:28,271 INFO  	192.168.1.1
+2021-05-04 12:16:28,272 INFO  resolver_process_data dns_res_check() in progress
+2021-05-04 12:16:28,272 INFO  DNS resolution awaiting response, queued to main loop
+2021-05-04 12:16:28,293 INFO  sip6.linphone.org. resolved to 54.37.202.229
+2021-05-04 12:16:28,293 INFO  A query finished for srv result [sip6.linphone.org.]
+2021-05-04 12:16:28,293 INFO  sip1.linphone.org. resolved to 91.121.209.194
+2021-05-04 12:16:28,293 INFO  A query finished for srv result [sip1.linphone.org.]
+2021-05-04 12:16:28,293 INFO  sip6.linphone.org. resolved to 54.37.202.229
+2021-05-04 12:16:28,294 INFO  A query finished for srv result [sip6.linphone.org.]
+2021-05-04 12:16:28,294 INFO  All A/AAAA results for combined resolution have arrived.
+2021-05-04 12:16:28,294 INFO  channel 286956432: state RES_DONE
+2021-05-04 12:16:28,294 INFO  transaction [284730600] channel state changed to [RES_DONE]
+2021-05-04 12:16:28,294 INFO  channel 286956432: state CONNECTING
+2021-05-04 12:16:28,294 INFO  transaction [284730600] channel state changed to [CONNECTING]
+2021-05-04 12:16:28,294 INFO  Trying to connect to [TLS://54.37.202.229:5223]
+2021-05-04 12:16:28,424 INFO  Channel [286956432]: Connected at TCP level, now doing TLS handshake with cname=sip.linphone.org
+2021-05-04 12:16:28,424 INFO  Channel [286956432]: SSL handshake in progress...
+2021-05-04 12:16:28,549 INFO  Found certificate depth=[2], flags=[]:
+cert. version     : 3
+serial number     : 44:AF:B0:80:D6:A3:27:BA:89:30:39:86:2E:F8:40:6B
+issuer name       : O=Digital Signature Trust Co., CN=DST Root CA X3
+subject name      : O=Digital Signature Trust Co., CN=DST Root CA X3
+issued  on        : 2000-09-30 21:12:19
+expires on        : 2021-09-30 14:01:15
+signed using      : RSA with SHA1
+RSA key size      : 2048 bits
+basic constraints : CA=true
+key usage         : Key Cert Sign, CRL Sign
+
+2021-05-04 12:16:28,550 INFO  Found certificate depth=[1], flags=[]:
+cert. version     : 3
+serial number     : 40:01:75:04:83:14:A4:C8:21:8C:84:A9:0C:16:CD:DF
+issuer name       : O=Digital Signature Trust Co., CN=DST Root CA X3
+subject name      : C=US, O=Let's Encrypt, CN=R3
+issued  on        : 2020-10-07 19:21:40
+expires on        : 2021-09-29 19:21:40
+signed using      : RSA with SHA-256
+RSA key size      : 2048 bits
+basic constraints : CA=true, max_pathlen=0
+key usage         : Digital Signature, Key Cert Sign, CRL Sign
+ext key usage     : TLS Web Server Authentication, TLS Web Client Authentication
+
+2021-05-04 12:16:28,550 INFO  Found certificate depth=[0], flags=[]:
+cert. version     : 3
+serial number     : 04:7D:E4:CB:5D:31:27:C6:A2:11:73:44:24:9E:8E:81:F7:18
+issuer name       : C=US, O=Let's Encrypt, CN=R3
+subject name      : CN=sip6.linphone.org
+issued  on        : 2021-04-11 06:51:28
+expires on        : 2021-07-10 06:51:28
+signed using      : RSA with SHA-256
+RSA key size      : 4096 bits
+basic constraints : CA=false
+subject alt name  : sip.linhome.org, sip.linphone.org, sip6.linhome.org, sip6.linphone.org
+key usage         : Digital Signature, Key Encipherment
+ext key usage     : TLS Web Server Authentication, TLS Web Client Authentication
+
+2021-05-04 12:16:28,558 INFO  Channel [286956432]: SSL handshake in progress...
+2021-05-04 12:16:28,668 DEBUG Saving accounts....
+2021-05-04 12:16:28,680 INFO  Channel [286956432]: SSL handshake finished, SSL version is [TLSv1.2], selected ciphersuite is [TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384]
+2021-05-04 12:16:28,680 INFO  Channel has local address 192.168.1.178:52362
+2021-05-04 12:16:28,680 INFO  channel 286956432: state READY
+2021-05-04 12:16:28,680 INFO  transaction [284730600] channel state changed to [READY]
+2021-05-04 12:16:28,680 INFO  Changing [client] [REGISTER] transaction [284730600], from state [INIT] to [TRYING]
+2021-05-04 12:16:28,681 INFO  channel [286956432]: message sent to [TLS://sip.linphone.org:5223], size: [641] bytes
+REGISTER sip:sip.linphone.org SIP/2.0
+Via: SIP/2.0/TLS 192.168.1.178:52362;alias;branch=z9hG4bK.NZwxn6ptp;rport
+From: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=HbeZ4nQdc
+To: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>
+CSeq: 20 REGISTER
+Call-ID: ~~IIVrOIc6
+Max-Forwards: 70
+Supported: replaces, outbound
+Accept: application/sdp
+Accept: text/plain
+Accept: application/vnd.gsma.rcs-ft-http+xml
+Contact: <sip:suwasuwa@192.168.1.178:52362;transport=tls>;+sip.instance="<urn:uuid:df1a043f-aa65-42fd-8a73-e7ef24f8b7e6>"
+Expires: 280
+User-Agent: VATRP/1.2.0 (belle-sip/1.6.1)
+Content-Length: 0
+
+
+2021-05-04 12:16:28,800 INFO  channel [286956432]: received [551] new bytes from [TLS://sip.linphone.org:5223]:
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/TLS 192.168.1.178:52362;alias;branch=z9hG4bK.NZwxn6ptp;rport=52362;received=71.179.24.186
+From: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=HbeZ4nQdc
+To: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=ggBX20aeg35gH
+Call-ID: ~~IIVrOIc6
+CSeq: 20 REGISTER
+Server: Flexisip/2.0.4-10-gd7d4d332 (sofia-sip-nta/2.0)
+WWW-Authenticate: Digest realm="sip.linphone.org", nonce="2fE75AAAAABcXzYfAAC05u511UcAAAAA", opaque="+GNywA==", algorithm=MD5, qop="auth"
+Content-Length: 0
+
+
+2021-05-04 12:16:28,802 INFO  channel [286956432] [551] bytes parsed
+2021-05-04 12:16:28,802 INFO  channel [286956432]: discovered public ip and port are [71.179.24.186:52362]
+2021-05-04 12:16:28,802 INFO  Found transaction matching response.
+2021-05-04 12:16:28,802 INFO  Changing [client] [REGISTER] transaction [284730600], from state [TRYING] to [COMPLETED]
+2021-05-04 12:16:28,802 INFO  linphone_core_find_auth_info(): returning auth info username=suwasuwa, realm=
+2021-05-04 12:16:28,802 INFO  Auth info found for [suwasuwa] realm [sip.linphone.org]
+2021-05-04 12:16:28,802 INFO  Changing [client] [REGISTER] transaction [287265920], from state [INIT] to [TRYING]
+2021-05-04 12:16:28,803 INFO  channel [286956432]: message sent to [TLS://sip.linphone.org:5223], size: [911] bytes
+REGISTER sip:sip.linphone.org SIP/2.0
+Via: SIP/2.0/TLS 192.168.1.178:52362;alias;branch=z9hG4bK.B5HgxP1wb;rport
+From: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=HbeZ4nQdc
+To: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>
+CSeq: 21 REGISTER
+Call-ID: ~~IIVrOIc6
+Max-Forwards: 70
+Supported: replaces, outbound
+Accept: application/sdp
+Accept: text/plain
+Accept: application/vnd.gsma.rcs-ft-http+xml
+Contact: <sip:suwasuwa@71.179.24.186:52362;transport=tls>;+sip.instance="<urn:uuid:df1a043f-aa65-42fd-8a73-e7ef24f8b7e6>"
+Expires: 280
+User-Agent: VATRP/1.2.0 (belle-sip/1.6.1)
+Content-Length: 0
+Authorization:  Digest realm="sip.linphone.org", nonce="2fE75AAAAABcXzYfAAC05u511UcAAAAA", algorithm=MD5, opaque="+GNywA==", username="suwasuwa",  uri="sip:sip.linphone.org", response="0f03ee2bcee4687ad421fe111302c42d", cnonce="rvvf42pPoRom2uhb", nc=00000001, qop=auth
+
+
+2021-05-04 12:16:28,803 INFO  Changing [client] [REGISTER] transaction [284730600], from state [COMPLETED] to [TERMINATED]
+2021-05-04 12:16:28,803 INFO  Client internal REGISTER transaction [284730600] terminated
+2021-05-04 12:16:28,946 INFO  channel [286956432]: received [560] new bytes from [TLS://sip.linphone.org:5223]:
+SIP/2.0 200 Registration successful
+Via: SIP/2.0/TLS 192.168.1.178:52362;alias;branch=z9hG4bK.B5HgxP1wb;rport=52362;received=71.179.24.186
+From: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=HbeZ4nQdc
+To: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=mmg09cev46yUF
+Call-ID: ~~IIVrOIc6
+CSeq: 21 REGISTER
+Contact: <sip:suwasuwa@71.179.24.186:52362;transport=tls>;+sip.instance="<urn:uuid:df1a043f-aa65-42fd-8a73-e7ef24f8b7e6>"
+Expires: 280
+Server: Flexisip/2.0.4-10-gd7d4d332 (sofia-sip-nta/2.0)
+Content-Length: 0
+
+
+2021-05-04 12:16:28,948 INFO  channel [286956432] [560] bytes parsed
+2021-05-04 12:16:28,948 INFO  Found transaction matching response.
+2021-05-04 12:16:28,948 INFO  Changing [client] [REGISTER] transaction [287265920], from state [TRYING] to [COMPLETED]
+2021-05-04 12:16:28,948 INFO  Refresher [23478704]:  has no contact for request [286652384].
+2021-05-04 12:16:28,948 INFO  Refresher[23478704]: scheduling next timer in 252000 ms for purpose [normal refresh]
+2021-05-04 12:16:28,948 INFO  Register refresher [200] reason [Registration successful] for proxy [<sip:sip.linphone.org:5061;transport=tls>]
+2021-05-04 12:16:28,948 INFO  Proxy config [113088776] for identity ["Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>] moving from state [LinphoneRegistrationProgress] to [LinphoneRegistrationOk] on core [112522800]
+2021-05-04 12:16:28,949 INFO  Updating friends for identity ["Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>] on core [112522800]
+2021-05-04 12:16:28,949 INFO  LinphoneService.OnRegistrationChanged called. Call State was:LinphoneRegistrationProgress call state changing to LinphoneRegistrationOk
+2021-05-04 12:16:28,949 INFO  Linphone core [112522800] notified [registration_state_changed]
+2021-05-04 12:16:28,949 INFO  Registration state changed from LinphoneRegistrationProgress to LinphoneRegistrationOk. Reason: LinphoneReasonNone
+2021-05-04 12:16:28,949 INFO  Changing [client] [REGISTER] transaction [287265920], from state [COMPLETED] to [TERMINATED]
+2021-05-04 12:16:28,950 INFO  Client internal REGISTER transaction [287265920] terminated
+2021-05-04 12:17:25,771 INFO  linphone_core_set_playback_gain_db(): no active call.
+2021-05-04 12:17:25,773 INFO  Found media local-ip from signaling.
+2021-05-04 12:17:25,774 INFO  New LinphoneCall [286912624] initialized (LinphoneCore version: 3.11.1-1-g79a8f90)
+2021-05-04 12:17:25,775 INFO  Call 286912624: moving from state LinphoneCallIdle to LinphoneCallOutgoingInit
+2021-05-04 12:17:25,776 INFO  OnCallStateChanged: State - LinphoneCallOutgoingInit, CallPtr - 286912624, Message: Starting outgoing call
+2021-05-04 12:17:25,777 INFO  Call not found. Adding new call into list. ID - 286912624 Calls count: 0
+2021-05-04 12:17:25,785 INFO  Linphone core [112522800] notified [call_state_changed]
+2021-05-04 12:17:25,786 INFO  Call [286912624], stream type [audio], multicast role is [inactive]
+2021-05-04 12:17:25,787 INFO  RtpSession bound to [0.0.0.0] ports [7078] [7079]
+2021-05-04 12:17:25,788 INFO  rtp_session_enable_network_simulation:DISABLING NETWORK SIMULATION
+2021-05-04 12:17:25,791 INFO  CallStateChanged: State - Trying. Call: 286912624
+2021-05-04 12:17:25,795 INFO  Retrieve certificate with CN=linphone-dtls-default-identity successful
+
+2021-05-04 12:17:25,795 INFO  Start DTLS media stream context in stream session [360313648]
+2021-05-04 12:17:25,796 INFO  Creating DTLS-SRTP engine on session [113041112] as unset role
+2021-05-04 12:17:25,810 INFO  Configured srtp crypto suite: AES_CM_128_HMAC_SHA1_80 
+2021-05-04 12:17:25,810 INFO  Configured srtp crypto suite: AES_CM_128_HMAC_SHA1_32 
+2021-05-04 12:17:25,810 INFO  Configured srtp crypto suite: AES_256_CM_HMAC_SHA1_80 
+2021-05-04 12:17:25,810 INFO  Configured srtp crypto suite: AES_256_CM_HMAC_SHA1_32 
+2021-05-04 12:17:25,810 INFO  Creating ZRTP engine on rtp session [113041112] ssrc 0xB7B3E46C
+2021-05-04 12:17:25,812 INFO  Setting DSCP to 46 for MSAudio stream.
+2021-05-04 12:17:25,812 INFO  check OS support for qwave.lib
+2021-05-04 12:17:25,814 INFO  Equalizer location: hp
+2021-05-04 12:17:25,815 INFO  cannot set noise gate mode to [0] because no volume send
+2021-05-04 12:17:25,815 INFO  Call [286912624], stream type [video], multicast role is [inactive]
+2021-05-04 12:17:25,816 INFO  RtpSession bound to [0.0.0.0] ports [9078] [9079]
+2021-05-04 12:17:25,816 INFO  rtp_session_enable_network_simulation:DISABLING NETWORK SIMULATION
+2021-05-04 12:17:25,823 INFO  Retrieve certificate with CN=linphone-dtls-default-identity successful
+
+2021-05-04 12:17:25,824 INFO  Start DTLS media stream context in stream session [284107224]
+2021-05-04 12:17:25,825 INFO  Creating DTLS-SRTP engine on session [359901624] as unset role
+2021-05-04 12:17:25,838 INFO  Initializing multistream ZRTP context on rtp session [359901624] ssrc 0xF672889F
+2021-05-04 12:17:25,838 INFO  Setting DSCP to 46 for MSVideo stream.
+2021-05-04 12:17:25,838 INFO  check OS support for qwave.lib
+2021-05-04 12:17:25,839 INFO  Call [286912624], stream type [text], multicast role is [inactive]
+2021-05-04 12:17:25,839 INFO  RtpSession bound to [0.0.0.0] ports [11078] [11079]
+2021-05-04 12:17:25,840 INFO  rtp_session_enable_network_simulation:DISABLING NETWORK SIMULATION
+2021-05-04 12:17:25,847 INFO  Retrieve certificate with CN=linphone-dtls-default-identity successful
+
+2021-05-04 12:17:25,847 INFO  Start DTLS media stream context in stream session [284129632]
+2021-05-04 12:17:25,849 INFO  Creating DTLS-SRTP engine on session [359904592] as unset role
+2021-05-04 12:17:25,862 INFO  Contact has been fixed using proxy
+2021-05-04 12:17:25,863 INFO  Found media local-ip from signaling.
+2021-05-04 12:17:25,863 INFO  ms_filter_link: MSRtpRecv:287313616,0-->MSVoidSink:287313680,0
+2021-05-04 12:17:25,864 INFO  win32 timer resolution set to 2 ms
+2021-05-04 12:17:25,864 INFO  ["Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>] calling [sip:suwa@sip.linphone.org] on op [286949576]
+2021-05-04 12:17:25,864 INFO  Skipping top route of initial route-set because same as request-uri.
+2021-05-04 12:17:25,864 INFO  Changing [client] [INVITE] transaction [287399992], from state [INIT] to [CALLING]
+2021-05-04 12:17:25,865 INFO  channel [286956432]: message sent to [TLS://sip.linphone.org:5223], size: [2133] bytes
+INVITE sip:suwa@sip.linphone.org SIP/2.0
+Via: SIP/2.0/TLS 192.168.1.178:52362;branch=z9hG4bK.RtGgfLW1S;rport
+From: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=ajJ7tocxk
+To: sip:suwa@sip.linphone.org
+CSeq: 20 INVITE
+Call-ID: s30kZst8jH
+Max-Forwards: 70
+Supported: replaces, outbound
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, MESSAGE, SUBSCRIBE, INFO, UPDATE
+Content-Type: application/sdp
+Content-Length: 1511
+Contact: <sip:suwasuwa@71.179.24.186:52362;transport=tls>;+sip.instance="<urn:uuid:df1a043f-aa65-42fd-8a73-e7ef24f8b7e6>"
+User-Agent: VATRP/1.2.0 (belle-sip/1.6.1)
+
+v=0
+o=suwasuwa 651 1702 IN IP4 192.168.1.178
+s=Talk
+c=IN IP4 192.168.1.178
+b=AS:660
+t=0 0
+m=audio 7078 UDP/TLS/RTP/SAVP 9 0 8 96 97 98 101 99 100
+a=rtpmap:96 speex/16000
+a=fmtp:96 vbr=on
+a=rtpmap:97 speex/8000
+a=fmtp:97 vbr=on
+a=rtpmap:98 speex/32000
+a=fmtp:98 vbr=on
+a=rtpmap:101 telephone-event/8000
+a=rtpmap:99 telephone-event/16000
+a=rtpmap:100 telephone-event/32000
+a=setup:actpass
+a=fingerprint:SHA-256 DC:88:2D:F3:9F:17:4A:23:C2:0F:EE:61:36:F3:B0:6F:80:A4:6E:37:84:72:E7:8A:84:BB:DC:FA:26:ED:51:CD
+a=ssrc:3082019948 cname:sip:suwasuwa@sip.linphone.org
+a=rtcp-fb:* trr-int 3000
+a=rtcp-fb:* ccm tmmbr
+m=video 9078 UDP/TLS/RTP/SAVP 96 97
+a=rtpmap:96 H264/90000
+a=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f
+a=rtpmap:97 VP8/90000
+a=setup:actpass
+a=fingerprint:SHA-256 DC:88:2D:F3:9F:17:4A:23:C2:0F:EE:61:36:F3:B0:6F:80:A4:6E:37:84:72:E7:8A:84:BB:DC:FA:26:ED:51:CD
+a=ssrc:4134701215 cname:sip:suwasuwa@sip.linphone.org
+a=rtcp-fb:* trr-int 3000
+a=rtcp-fb:* ccm tmmbr
+a=rtcp-fb:96 nack pli
+a=rtcp-fb:96 ccm fir
+a=rtcp-fb:97 nack pli
+a=rtcp-fb:97 nack sli
+a=rtcp-fb:97 ack rpsi
+a=rtcp-fb:97 ccm fir
+m=text 11078 UDP/TLS/RTP/SAVP 96 97
+a=rtpmap:96 red/1000
+a=fmtp:96 97/97/97
+a=rtpmap:97 t140/1000
+a=setup:actpass
+a=fingerprint:SHA-256 DC:88:2D:F3:9F:17:4A:23:C2:0F:EE:61:36:F3:B0:6F:80:A4:6E:37:84:72:E7:8A:84:BB:DC:FA:26:ED:51:CD
+a=ssrc:2642354905 cname:sip:suwasuwa@sip.linphone.org
+a=rtcp-fb:* trr-int 3000
+a=rtcp-fb:* ccm tmmbr
+
+2021-05-04 12:17:25,865 INFO  Call 286912624: moving from state LinphoneCallOutgoingInit to LinphoneCallOutgoingProgress
+2021-05-04 12:17:25,865 INFO  OnCallStateChanged: State - LinphoneCallOutgoingProgress, CallPtr - 286912624, Message: Outgoing call in progress
+2021-05-04 12:17:25,866 INFO  Linphone core [112522800] notified [call_state_changed]
+2021-05-04 12:17:25,866 INFO  CallStateChanged: State - Trying. Call: 286912624
+2021-05-04 12:17:25,990 INFO  channel [286956432]: received [530] new bytes from [TLS://sip.linphone.org:5223]:
+SIP/2.0 407 Proxy Authentication Required
+Via: SIP/2.0/TLS 192.168.1.178:52362;branch=z9hG4bK.RtGgfLW1S;rport=52362;received=71.179.24.186
+From: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=ajJ7tocxk
+To: <sip:suwa@sip.linphone.org>;tag=87286S7782DDH
+Call-ID: s30kZst8jH
+CSeq: 20 INVITE
+Server: Flexisip/2.0.4-10-gd7d4d332 (sofia-sip-nta/2.0)
+Proxy-Authenticate: Digest realm="sip.linphone.org", nonce="EvI75AAAAAA56Jr8AADWdctLabwAAAAA", opaque="+GNywA==", algorithm=MD5, qop="auth"
+Content-Length: 0
+
+
+2021-05-04 12:17:25,991 INFO  channel [286956432] [530] bytes parsed
+2021-05-04 12:17:25,992 INFO  Found transaction matching response.
+2021-05-04 12:17:25,992 INFO  Changing [client] [INVITE] transaction [287399992], from state [CALLING] to [PROCEEDING]
+2021-05-04 12:17:25,992 INFO  Changing [client] [INVITE] transaction [287399992], from state [PROCEEDING] to [COMPLETED]
+2021-05-04 12:17:25,992 INFO  channel [286956432]: message sent to [TLS://sip.linphone.org:5223], size: [437] bytes
+ACK sip:suwa@sip.linphone.org SIP/2.0
+Via: SIP/2.0/TLS 192.168.1.178:52362;branch=z9hG4bK.RtGgfLW1S;rport
+Call-ID: s30kZst8jH
+From: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=ajJ7tocxk
+To: <sip:suwa@sip.linphone.org>;tag=87286S7782DDH
+Contact: <sip:suwasuwa@71.179.24.186:52362;transport=tls>;+sip.instance="<urn:uuid:df1a043f-aa65-42fd-8a73-e7ef24f8b7e6>"
+Max-Forwards: 70
+CSeq: 20 ACK
+Content-Length: 0
+
+
+2021-05-04 12:17:25,992 INFO  linphone_core_find_auth_info(): returning auth info username=suwasuwa, realm=sip.linphone.org
+2021-05-04 12:17:25,993 INFO  Auth info found for [suwasuwa] realm [sip.linphone.org]
+2021-05-04 12:17:25,993 INFO  Changing [client] [INVITE] transaction [287401672], from state [INIT] to [CALLING]
+2021-05-04 12:17:25,993 INFO  channel [286956432]: message sent to [TLS://sip.linphone.org:5223], size: [2414] bytes
+INVITE sip:suwa@sip.linphone.org SIP/2.0
+Via: SIP/2.0/TLS 192.168.1.178:52362;branch=z9hG4bK.DjIuT6AHD;rport
+From: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=ajJ7tocxk
+To: sip:suwa@sip.linphone.org
+CSeq: 21 INVITE
+Call-ID: s30kZst8jH
+Max-Forwards: 70
+Supported: replaces, outbound
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, MESSAGE, SUBSCRIBE, INFO, UPDATE
+Content-Type: application/sdp
+Content-Length: 1511
+Contact: <sip:suwasuwa@71.179.24.186:52362;transport=tls>;+sip.instance="<urn:uuid:df1a043f-aa65-42fd-8a73-e7ef24f8b7e6>"
+User-Agent: VATRP/1.2.0 (belle-sip/1.6.1)
+Proxy-Authorization:  Digest realm="sip.linphone.org", nonce="EvI75AAAAAA56Jr8AADWdctLabwAAAAA", algorithm=MD5, opaque="+GNywA==", username="suwasuwa",  uri="sip:suwa@sip.linphone.org", response="6c83bca08091e7fdb949924f244bbb3b", cnonce="eXCSeKaN0jnub0sA", nc=00000001, qop=auth
+
+v=0
+o=suwasuwa 651 1702 IN IP4 192.168.1.178
+s=Talk
+c=IN IP4 192.168.1.178
+b=AS:660
+t=0 0
+m=audio 7078 UDP/TLS/RTP/SAVP 9 0 8 96 97 98 101 99 100
+a=rtpmap:96 speex/16000
+a=fmtp:96 vbr=on
+a=rtpmap:97 speex/8000
+a=fmtp:97 vbr=on
+a=rtpmap:98 speex/32000
+a=fmtp:98 vbr=on
+a=rtpmap:101 telephone-event/8000
+a=rtpmap:99 telephone-event/16000
+a=rtpmap:100 telephone-event/32000
+a=setup:actpass
+a=fingerprint:SHA-256 DC:88:2D:F3:9F:17:4A:23:C2:0F:EE:61:36:F3:B0:6F:80:A4:6E:37:84:72:E7:8A:84:BB:DC:FA:26:ED:51:CD
+a=ssrc:3082019948 cname:sip:suwasuwa@sip.linphone.org
+a=rtcp-fb:* trr-int 3000
+a=rtcp-fb:* ccm tmmbr
+m=video 9078 UDP/TLS/RTP/SAVP 96 97
+a=rtpmap:96 H264/90000
+a=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f
+a=rtpmap:97 VP8/90000
+a=setup:actpass
+a=fingerprint:SHA-256 DC:88:2D:F3:9F:17:4A:23:C2:0F:EE:61:36:F3:B0:6F:80:A4:6E:37:84:72:E7:8A:84:BB:DC:FA:26:ED:51:CD
+a=ssrc:4134701215 cname:sip:suwasuwa@sip.linphone.org
+a=rtcp-fb:* trr-int 3000
+a=rtcp-fb:* ccm tmmbr
+a=rtcp-fb:96 nack pli
+a=rtcp-fb:96 ccm fir
+a=rtcp-fb:97 nack pli
+a=rtcp-fb:97 nack sli
+a=rtcp-fb:97 ack rpsi
+a=rtcp-fb:97 ccm fir
+m=text 11078 UDP/TLS/RTP/SAVP 96 97
+a=rtpmap:96 red/1000
+a=fmtp:96 97/97/97
+a=rtpmap:97 t140/1000
+a=setup:actpass
+a=fingerprint:SHA-256 DC:88:2D:F3:9F:17:4A:23:C2:0F:EE:61:36:F3:B0:6F:80:A4:6E:37:84:72:E7:8A:84:BB:DC:FA:26:ED:51:CD
+a=ssrc:2642354905 cname:sip:suwasuwa@sip.linphone.org
+a=rtcp-fb:* trr-int 3000
+a=rtcp-fb:* ccm tmmbr
+
+2021-05-04 12:17:26,116 INFO  channel [286956432]: received [396] new bytes from [TLS://sip.linphone.org:5223]:
+SIP/2.0 100 Trying
+Via: SIP/2.0/TLS 192.168.1.178:52362;branch=z9hG4bK.DjIuT6AHD;rport=52362;received=71.179.24.186
+Record-Route: <sips:sip6.linphone.org:5223;lr>
+From: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=ajJ7tocxk
+To: <sip:suwa@sip.linphone.org>
+Call-ID: s30kZst8jH
+CSeq: 21 INVITE
+Server: Flexisip/2.0.4-10-gd7d4d332 (sofia-sip-nta/2.0)
+Content-Length: 0
+
+
+2021-05-04 12:17:26,117 INFO  channel [286956432] [396] bytes parsed
+2021-05-04 12:17:26,118 INFO  Found transaction matching response.
+2021-05-04 12:17:26,118 INFO  Changing [client] [INVITE] transaction [287401672], from state [CALLING] to [PROCEEDING]
+2021-05-04 12:17:26,118 INFO  op [286949576] : set_or_update_dialog() current=[0] new=[0]
+2021-05-04 12:17:26,118 INFO  Op [286949576] receiving call response [100], dialog is [0] in state [BELLE_SIP_DIALOG_NULL]
+2021-05-04 12:17:27,800 INFO  channel [286956432]: received [426] new bytes from [TLS://sip.linphone.org:5223]:
+SIP/2.0 180 Ringing
+Via: SIP/2.0/TLS 192.168.1.178:52362;received=71.179.24.186;branch=z9hG4bK.DjIuT6AHD;rport=52362
+Record-Route: <sips:sip6.linphone.org:5223;lr>
+From: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=ajJ7tocxk
+To: <sip:suwa@sip.linphone.org>;tag=lsPP6Gy
+Call-ID: s30kZst8jH
+CSeq: 21 INVITE
+User-Agent: VATRP/1.2.0 (belle-sip/1.6.1)
+Supported: replaces, outbound
+Content-Length: 0
+
+
+2021-05-04 12:17:27,801 INFO  channel [286956432] [426] bytes parsed
+2021-05-04 12:17:27,801 INFO  Found transaction matching response.
+2021-05-04 12:17:27,801 INFO  New client dialog [112801624] , local tag [ajJ7tocxk], remote tag [lsPP6Gy]
+2021-05-04 12:17:27,801 INFO  Dialog [112801624]: now updated by transaction [287401672].
+2021-05-04 12:17:27,802 INFO  op [286949576] : set_or_update_dialog() current=[0] new=[112801624]
+2021-05-04 12:17:27,802 INFO  Op [286949576] receiving call response [180], dialog is [112801624] in state [BELLE_SIP_DIALOG_EARLY]
+2021-05-04 12:17:27,802 INFO  Doing SDP offer/answer process of type outgoing
+2021-05-04 12:17:27,804 INFO  ms_filter_unlink: MSRtpRecv:287313616,0-->MSVoidSink:287313680,0
+2021-05-04 12:17:27,804 INFO  speex_lib_ctl init with neon ? 0
+2021-05-04 12:17:27,805 INFO  Remote ringing...
+2021-05-04 12:17:27,805 INFO  Call 286912624: moving from state LinphoneCallOutgoingProgress to LinphoneCallOutgoingRinging
+2021-05-04 12:17:27,806 INFO  OnCallStateChanged: State - LinphoneCallOutgoingRinging, CallPtr - 286912624, Message: Remote ringing
+2021-05-04 12:17:27,807 INFO  Linphone core [112522800] notified [call_state_changed]
+2021-05-04 12:17:27,807 INFO  CallStateChanged: State - Ringing. Call: 286912624
+2021-05-04 12:17:31,757 INFO  channel [286956432]: received [674] new bytes from [TLS://sip.linphone.org:5223]:
+SIP/2.0 200 Ok
+Via: SIP/2.0/TLS 192.168.1.178:52362;received=71.179.24.186;branch=z9hG4bK.DjIuT6AHD;rport=52362
+Record-Route: <sips:sip6.linphone.org:5223;lr>
+From: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=ajJ7tocxk
+To: <sip:suwa@sip.linphone.org>;tag=lsPP6Gy
+Call-ID: s30kZst8jH
+CSeq: 21 INVITE
+Contact: <sip:suwa@71.179.24.186:53052;transport=tls;verified>;+sip.instance="<urn:uuid:9b18044e-2bba-4b46-a56d-63b68346bb83>"
+User-Agent: VATRP/1.2.0 (belle-sip/1.6.1)
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, MESSAGE, SUBSCRIBE, INFO, UPDATE
+Supported: replaces, outbound
+Content-Type: application/sdp
+Content-Length: 1494
+
+
+2021-05-04 12:17:31,759 INFO  channel [286956432] [674] bytes parsed
+2021-05-04 12:17:31,781 INFO  channel [286956432]: received [1494] new bytes from [TLS://sip.linphone.org:5223]:
+v=0
+o=suwa 651 1703 IN IP4 192.168.0.121
+s=Talk
+c=IN IP4 54.37.202.229
+b=AS:660
+t=0 0
+m=audio 10484 UDP/TLS/RTP/SAVP 9 0 8 96 97 98 101 99 100
+a=rtpmap:96 speex/16000
+a=fmtp:96 vbr=on
+a=rtpmap:97 speex/8000
+a=fmtp:97 vbr=on
+a=rtpmap:98 speex/32000
+a=fmtp:98 vbr=on
+a=rtpmap:101 telephone-event/8000
+a=rtpmap:99 telephone-event/16000
+a=rtpmap:100 telephone-event/32000
+a=setup:active
+a=fingerprint:SHA-256 54:B0:6F:05:18:C3:F5:F3:7F:04:7D:44:2A:E4:0F:20:B9:AB:41:8E:98:EB:8F:E8:8C:78:64:AF:46:15:4E:51
+a=ssrc:1857965595 cname:sip:suwa@sip.linphone.org
+a=rtcp-fb:* trr-int 3000
+a=rtcp-fb:* ccm tmmbr
+m=video 32816 UDP/TLS/RTP/SAVP 96 97
+a=rtpmap:96 H264/90000
+a=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f
+a=rtpmap:97 VP8/90000
+a=setup:active
+a=fingerprint:SHA-256 54:B0:6F:05:18:C3:F5:F3:7F:04:7D:44:2A:E4:0F:20:B9:AB:41:8E:98:EB:8F:E8:8C:78:64:AF:46:15:4E:51
+a=ssrc:1965013268 cname:sip:suwa@sip.linphone.org
+a=rtcp-fb:* trr-int 3000
+a=rtcp-fb:* ccm tmmbr
+a=rtcp-fb:96 nack pli
+a=rtcp-fb:96 ccm fir
+a=rtcp-fb:97 nack pli
+a=rtcp-fb:97 nack sli
+a=rtcp-fb:97 ack rpsi
+a=rtcp-fb:97 ccm fir
+m=text 45498 UDP/TLS/RTP/SAVP 96 97
+a=rtpmap:96 red/1000
+a=fmtp:96 97/97/97
+a=rtpmap:97 t140/1000
+a=setup:active
+a=fingerprint:SHA-256 54:B0:6F:05:18:C3:F5:F3:7F:04:7D:44:2A:E4:0F:20:B9:AB:41:8E:98:EB:8F:E8:8C:78:64:AF:46:15:4E:51
+a=ssrc:3526014981 cname:sip:suwa@sip.linphone.org
+a=rtcp-fb:* trr-int 3000
+a=rtcp-fb:* ccm tmmbr
+
+2021-05-04 12:17:31,781 INFO  channel [286956432] read [1494] bytes of body from [sip.linphone.org:5223]
+2021-05-04 12:17:31,781 INFO  Found transaction matching response.
+2021-05-04 12:17:31,781 INFO  Changing [client] [INVITE] transaction [287401672], from state [PROCEEDING] to [ACCEPTED]
+2021-05-04 12:17:31,781 INFO  Dialog [112801624]: now updated by transaction [287401672].
+2021-05-04 12:17:31,782 INFO  op [286949576] : set_or_update_dialog() current=[112801624] new=[112801624]
+2021-05-04 12:17:31,782 INFO  Op [286949576] receiving call response [200], dialog is [112801624] in state [BELLE_SIP_DIALOG_CONFIRMED]
+2021-05-04 12:17:31,791 INFO  Found payload G722/8000 fmtp=
+2021-05-04 12:17:31,791 INFO  Found payload PCMU/8000 fmtp=
+2021-05-04 12:17:31,791 INFO  Found payload PCMA/8000 fmtp=
+2021-05-04 12:17:31,791 INFO  Found payload speex/16000 fmtp=vbr=on
+2021-05-04 12:17:31,791 INFO  Found payload speex/8000 fmtp=vbr=on
+2021-05-04 12:17:31,792 INFO  Found payload speex/32000 fmtp=vbr=on
+2021-05-04 12:17:31,792 INFO  Found payload telephone-event/8000 fmtp=
+2021-05-04 12:17:31,792 INFO  Found payload telephone-event/16000 fmtp=
+2021-05-04 12:17:31,792 INFO  Found payload telephone-event/32000 fmtp=
+2021-05-04 12:17:31,792 INFO  Found payload H264/90000 fmtp=level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f
+2021-05-04 12:17:31,792 INFO  Found payload VP8/90000 fmtp=
+2021-05-04 12:17:31,792 INFO  Found payload red/1000 fmtp=97/97/97
+2021-05-04 12:17:31,792 INFO  Found payload t140/1000 fmtp=
+2021-05-04 12:17:31,792 INFO  Doing SDP offer/answer process of type outgoing
+2021-05-04 12:17:31,793 INFO  Processing for stream 0
+2021-05-04 12:17:31,793 INFO  Processing for stream 1
+2021-05-04 12:17:31,793 INFO  Processing for stream 2
+2021-05-04 12:17:31,793 INFO  Doing offer/answer processing with specific provider for codec [red]
+2021-05-04 12:17:31,793 INFO  channel [360618592]: starting resolution of sip6.linphone.org
+2021-05-04 12:17:31,793 INFO  channel 360618592: state RES_IN_PROGRESS
+2021-05-04 12:17:31,821 INFO  Resolver is using DNS server(s):
+2021-05-04 12:17:31,821 INFO  	192.168.1.1
+2021-05-04 12:17:31,822 INFO  resolver_process_data dns_res_check() in progress
+2021-05-04 12:17:31,822 INFO  DNS resolution awaiting response, queued to main loop
+2021-05-04 12:17:31,822 INFO  Call 286912624: moving from state LinphoneCallOutgoingRinging to LinphoneCallConnected
+2021-05-04 12:17:31,822 INFO  OnCallStateChanged: State - LinphoneCallConnected, CallPtr - 286912624, Message: Connected
+2021-05-04 12:17:31,823 INFO  Linphone core [112522800] notified [call_state_changed]
+2021-05-04 12:17:31,823 INFO  CallStateChanged: State - Connected. Call: 286912624
+2021-05-04 12:17:31,823 INFO  linphone_call_start_media_streams() call=[286912624] local upload_bandwidth=[660] kbit/s; local download_bandwidth=[660] kbit/s
+2021-05-04 12:17:31,823 INFO  Audio bandwidth for this call is 80
+2021-05-04 12:17:31,823 INFO  LinphoneCall[286912624] - setting up advanced rate control.
+2021-05-04 12:17:31,823 INFO  RtpSession [113041112] sending to rtp 54.37.202.229:10484 rtcp 54.37.202.229:10485 
+2021-05-04 12:17:31,823 INFO  check OS support for qwave.lib
+2021-05-04 12:17:31,824 INFO  Stun packet sent for session [113041112]
+2021-05-04 12:17:31,825 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:31,826 INFO  Setting echo canceller delay with value provided by soundcard: 0 ms
+2021-05-04 12:17:31,826 INFO  target bitrate not set for stream [360313640] using payload's bitrate is 80000
+2021-05-04 12:17:31,826 INFO  Setting audio encoder network bitrate to [80000] on stream [360313640]
+2021-05-04 12:17:31,827 INFO  ms_filter_link: MSWinSndRead:287316432,0-->MSEqualizer:287317840,0
+2021-05-04 12:17:31,827 INFO  ms_filter_link: MSEqualizer:287317840,0-->MSSpeexEC:287309840,1
+2021-05-04 12:17:31,827 INFO  ms_filter_link: MSSpeexEC:287309840,1-->MSVolume:287319696,0
+2021-05-04 12:17:31,827 INFO  ms_filter_link: MSVolume:287319696,0-->MSAudioMixer:287318800,0
+2021-05-04 12:17:31,827 INFO  ms_filter_link: MSAudioMixer:287318800,0-->MSG722Enc:287318736,0
+2021-05-04 12:17:31,827 INFO  ms_filter_link: MSG722Enc:287318736,0-->MSRtpSend:287308112,0
+2021-05-04 12:17:31,827 INFO  ms_filter_link: MSRtpRecv:287316304,0-->MSG722Dec:287318032,0
+2021-05-04 12:17:31,827 INFO  ms_filter_link: MSG722Dec:287318032,0-->MSDtmfGen:287316368,0
+2021-05-04 12:17:31,828 INFO  ms_filter_link: MSDtmfGen:287316368,0-->MSVolume:287319760,0
+2021-05-04 12:17:31,828 INFO  ms_filter_link: MSVolume:287319760,0-->MSEqualizer:287318928,0
+2021-05-04 12:17:31,828 INFO  ms_filter_link: MSEqualizer:287318928,0-->MSAudioMixer:287318608,0
+2021-05-04 12:17:31,828 INFO  speex_lib_ctl init with neon ? 0
+2021-05-04 12:17:31,828 INFO  ms_filter_link: MSFilePlayer:287318416,0-->MSResample:287319248,0
+2021-05-04 12:17:31,828 INFO  ms_filter_link: MSResample:287319248,0-->MSAudioMixer:287318608,1
+2021-05-04 12:17:31,828 INFO  ms_filter_link: MSAudioMixer:287318608,0-->MSSpeexEC:287309840,0
+2021-05-04 12:17:31,828 INFO  ms_filter_link: MSSpeexEC:287309840,0-->MSWinSndWrite:287316496,0
+2021-05-04 12:17:32,030 INFO  Initializing speex echo canceler with framesize=128, filterlength=4000, delay_samples=0
+2021-05-04 12:17:32,031 INFO  Initializing speex resampler in mode [voip] 
+2021-05-04 12:17:32,091 INFO  Filter MSRtpRecv is already being scheduled; nothing to do.
+2021-05-04 12:17:32,091 INFO  MSVolume set gain to [0 db], [0] linear
+2021-05-04 12:17:32,091 INFO  Forced encryption mandatory on call [286912624] due to SRTP-DTLS
+2021-05-04 12:17:32,091 INFO  Setting video size 352x288 on stream [284107216]
+2021-05-04 12:17:32,092 INFO  LinphoneCall[286912624] - setting up advanced rate control.
+2021-05-04 12:17:32,092 INFO  linphone_call_start_video_stream lc rotation:0
+
+2021-05-04 12:17:32,092 INFO  RtpSession [359901624] sending to rtp 54.37.202.229:32816 rtcp 54.37.202.229:32817 
+2021-05-04 12:17:32,092 INFO  check OS support for qwave.lib
+2021-05-04 12:17:32,093 INFO  Using permissive algorithm
+2021-05-04 12:17:32,093 INFO  Stun packet sent for session [359901624]
+2021-05-04 12:17:32,093 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:32,095 INFO  Using the 'high-fps' video preset tagged 'desktop,h264'
+2021-05-04 12:17:32,095 INFO  target bitrate not set for stream [284107216] using payload's bitrate is 570000
+2021-05-04 12:17:32,095 INFO  Limiting bitrate of video encoder to 570000 bits/s for stream [284107216]
+2021-05-04 12:17:32,095 INFO  OpenH264 encoder: Video configuration set: bitrate=570000bits/s, fps=0, vsize=1077805056x352
+2021-05-04 12:17:32,096 INFO  packetization-mode set to 1
+2021-05-04 12:17:32,096 INFO  MSOpenH264Enc: enabling AVPF
+2021-05-04 12:17:32,097 INFO  MSAudioMixer [287318800] is entering bypass mode.
+2021-05-04 12:17:32,105 INFO  Stun packet sent for session [113041112]
+2021-05-04 12:17:32,105 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:32,135 INFO  Samples are back.
+2021-05-04 12:17:32,286 INFO  Seeing format 1280x720 MJPG
+2021-05-04 12:17:32,286 INFO  Seeing format 960x540 MJPG
+2021-05-04 12:17:32,287 INFO  Seeing format 848x480 MJPG
+2021-05-04 12:17:32,287 INFO  Seeing format 640x480 MJPG
+2021-05-04 12:17:32,287 INFO  Seeing format 640x360 MJPG
+2021-05-04 12:17:32,288 INFO  Seeing format 1280x720 MJPG
+2021-05-04 12:17:32,288 INFO  Seeing format 640x480 YUY2
+2021-05-04 12:17:32,288 INFO  Seeing format 640x360 YUY2
+2021-05-04 12:17:32,289 INFO  Seeing format 424x240 YUY2
+2021-05-04 12:17:32,289 INFO  Seeing format 320x240 YUY2
+2021-05-04 12:17:32,290 INFO  Seeing format 320x180 YUY2
+2021-05-04 12:17:32,290 INFO  Seeing format 160x120 YUY2
+2021-05-04 12:17:32,290 INFO  Seeing format 640x480 YUY2
+2021-05-04 12:17:32,291 INFO  Seeing format 1280x720 YUY2
+2021-05-04 12:17:32,291 INFO  Seeing format 1280x720 MJPG
+2021-05-04 12:17:32,291 INFO  Seeing format 960x540 MJPG
+2021-05-04 12:17:32,292 INFO  Seeing format 848x480 MJPG
+2021-05-04 12:17:32,292 INFO  Seeing format 640x480 MJPG
+2021-05-04 12:17:32,292 INFO  Seeing format 640x360 MJPG
+2021-05-04 12:17:32,293 INFO  Seeing format 1280x720 MJPG
+2021-05-04 12:17:32,293 INFO  Seeing format 640x480 YUY2
+2021-05-04 12:17:32,293 INFO  Seeing format 640x360 YUY2
+2021-05-04 12:17:32,293 INFO  Seeing format 424x240 YUY2
+2021-05-04 12:17:32,294 INFO  Seeing format 320x240 YUY2
+2021-05-04 12:17:32,294 INFO  Seeing format 320x180 YUY2
+2021-05-04 12:17:32,294 INFO  Seeing format 160x120 YUY2
+2021-05-04 12:17:32,294 INFO  Seeing format 640x480 YUY2
+2021-05-04 12:17:32,295 INFO  Seeing format 1280x720 YUY2
+2021-05-04 12:17:32,295 INFO  Best camera format is YUY2 320x240
+2021-05-04 12:17:32,324 INFO  Directshow graph is now ready to run.
+2021-05-04 12:17:32,325 INFO  Output video size adjusted to match camera resolution (320x240)
+2021-05-04 12:17:32,325 INFO  OpenH264 encoder: Video configuration set: bitrate=400000bits/s, fps=0, vsize=1077805056x320
+2021-05-04 12:17:32,325 INFO  Setting sent vsize=320x240, fps=0
+2021-05-04 12:17:32,325 INFO  OpenH264 encoder: Video configuration set: bitrate=400000bits/s, fps=0, vsize=1077805056x320
+2021-05-04 12:17:32,325 INFO  ms_filter_link: MSDsCap:359871008,0-->MSPixConv:287317904,0
+2021-05-04 12:17:32,325 INFO  ms_filter_link: MSPixConv:287317904,0-->MSTee:359870624,0
+2021-05-04 12:17:32,325 INFO  ms_filter_link: MSTee:359870624,0-->MSSizeConv:287317968,0
+2021-05-04 12:17:32,326 INFO  ms_filter_link: MSSizeConv:287317968,0-->MSOpenH264Enc:359869728,0
+2021-05-04 12:17:32,326 INFO  ms_filter_link: MSOpenH264Enc:359869728,0-->MSRtpSend:287310416,0
+2021-05-04 12:17:32,326 INFO  ms_filter_link: MSTee:359870624,2-->MSJpegWriter:359870240,0
+2021-05-04 12:17:32,327 INFO  ms_filter_link: MSRtpRecv:287318352,0-->MSTee:287310544,0
+2021-05-04 12:17:32,327 INFO  ms_filter_link: MSTee:287310544,1-->MSItcSink:287310672,0
+2021-05-04 12:17:32,327 INFO  configure_itc(): format set to type=video;encoding=H264;vsize=0x0;fps=0.000000;fmtp=''
+2021-05-04 12:17:32,327 INFO  ms_filter_link: MSTee:287310544,0-->MSOpenH264Dec:287319440,0
+2021-05-04 12:17:32,327 INFO  ms_filter_link: MSOpenH264Dec:287319440,0-->MSTee:287318544,0
+2021-05-04 12:17:32,327 INFO  ms_filter_link: MSTee:287318544,1-->MSJpegWriter:287318224,0
+2021-05-04 12:17:32,328 INFO  ms_filter_link: MSTee:287318544,0-->MSDrawDibDisplay:287318160,0
+2021-05-04 12:17:32,328 INFO  ms_filter_link: MSTee:359870624,1-->MSDrawDibDisplay:287318160,1
+2021-05-04 12:17:32,328 INFO  MSVideo MSTicker priority left to normal.
+2021-05-04 12:17:32,483 INFO  Graph started
+2021-05-04 12:17:32,490 INFO  Filter MSRtpRecv is already being scheduled; nothing to do.
+2021-05-04 12:17:32,490 INFO  Forced encryption mandatory on call [286912624] due to SRTP-DTLS
+2021-05-04 12:17:32,491 INFO  RtpSession [359904592] sending to rtp 54.37.202.229:45498 rtcp 54.37.202.229:45499 
+2021-05-04 12:17:32,491 INFO  check OS support for qwave.lib
+2021-05-04 12:17:32,492 INFO  Stun packet sent for session [359904592]
+2021-05-04 12:17:32,492 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:32,492 INFO  ms_filter_link: MSRTT4103Source:364167984,0-->MSRtpSend:287312912,0
+2021-05-04 12:17:32,493 INFO  ms_filter_link: MSRtpRecv:364169392,0-->MSRTT4103Sink:364168624,0
+2021-05-04 12:17:32,493 INFO  Forced encryption mandatory on call [286912624] due to SRTP-DTLS
+2021-05-04 12:17:32,493 INFO  DTLS set role from [unset role] to [server] for context [360319872]
+2021-05-04 12:17:32,493 INFO  DTLS start stream on stream sessions [360313648], RCTP mux is disabled
+2021-05-04 12:17:32,493 INFO  DTLS set role from [unset role] to [server] for context [360312000]
+2021-05-04 12:17:32,493 INFO  DTLS start stream on stream sessions [284107224], RCTP mux is disabled
+2021-05-04 12:17:32,493 INFO  DTLS set role from [unset role] to [server] for context [360311344]
+2021-05-04 12:17:32,494 INFO  win32 timer resolution set to 2 ms
+2021-05-04 12:17:32,494 INFO  Stun packet sent for session [359904592]
+2021-05-04 12:17:32,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:32,495 INFO  DTLS start stream on stream sessions [284129632], RCTP mux is disabled
+2021-05-04 12:17:32,495 INFO  LinphoneCall[286912624] : payload type 9 G722/8000 fmtp= added to frozen list.
+2021-05-04 12:17:32,495 INFO  LinphoneCall[286912624] : payload type 0 PCMU/8000 fmtp= added to frozen list.
+2021-05-04 12:17:32,495 INFO  LinphoneCall[286912624] : payload type 8 PCMA/8000 fmtp= added to frozen list.
+2021-05-04 12:17:32,495 INFO  LinphoneCall[286912624] : payload type 96 speex/16000 fmtp=vbr=on added to frozen list.
+2021-05-04 12:17:32,495 INFO  LinphoneCall[286912624] : payload type 97 speex/8000 fmtp=vbr=on added to frozen list.
+2021-05-04 12:17:32,496 INFO  LinphoneCall[286912624] : payload type 98 speex/32000 fmtp=vbr=on added to frozen list.
+2021-05-04 12:17:32,496 INFO  LinphoneCall[286912624] : payload type 101 telephone-event/8000 fmtp= added to frozen list.
+2021-05-04 12:17:32,496 INFO  LinphoneCall[286912624] : payload type 99 telephone-event/16000 fmtp= added to frozen list.
+2021-05-04 12:17:32,496 INFO  LinphoneCall[286912624] : payload type 100 telephone-event/32000 fmtp= added to frozen list.
+2021-05-04 12:17:32,496 INFO  LinphoneCall[286912624] : payload type 96 H264/90000 fmtp=level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f added to frozen list.
+2021-05-04 12:17:32,496 INFO  LinphoneCall[286912624] : payload type 97 VP8/90000 fmtp= added to frozen list.
+2021-05-04 12:17:32,496 INFO  LinphoneCall[286912624] : payload type 96 red/1000 fmtp=97/97/97 added to frozen list.
+2021-05-04 12:17:32,496 INFO  LinphoneCall[286912624] : payload type 97 t140/1000 fmtp= added to frozen list.
+2021-05-04 12:17:32,497 INFO  audio stream index found: 0, updating main audio stream index
+2021-05-04 12:17:32,497 INFO  video stream index found: 1, updating main video stream index
+2021-05-04 12:17:32,497 INFO  text stream index found: 2, updating main text stream index
+2021-05-04 12:17:32,497 INFO  Call 286912624: moving from state LinphoneCallConnected to LinphoneCallStreamsRunning
+2021-05-04 12:17:32,497 INFO  OnCallStateChanged: State - LinphoneCallStreamsRunning, CallPtr - 286912624, Message: Streams running
+2021-05-04 12:17:32,498 INFO  Linphone core [112522800] notified [call_state_changed]
+2021-05-04 12:17:32,498 INFO  CallStateChanged: State - StreamsRunning. Call: 286912624
+2021-05-04 12:17:32,498 INFO  Garbage collecting unowned object of type belle_sip_hop_t
+2021-05-04 12:17:32,499 INFO  Garbage collecting unowned object of type belle_sdp_session_description_t
+2021-05-04 12:17:32,500 INFO  Stun packet sent for session [359901624]
+2021-05-04 12:17:32,500 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:32,509 INFO  MSVolume set gain to [0 db], [0] linear
+2021-05-04 12:17:32,509 INFO  Set preferred video size by name: high-fps
+2021-05-04 12:17:32,520 INFO  MSVolume set gain to [0 db], [0] linear
+2021-05-04 12:17:32,521 INFO  resolver_process_data dns_res_check() in progress
+2021-05-04 12:17:32,521 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:32,521 INFO  Thread processing load: audio=1073741824	video=1074435357	text=0
+2021-05-04 12:17:32,562 INFO  No SRV result for [_sips._tcp.sip6.linphone.org], trying A/AAAA.
+2021-05-04 12:17:32,572 INFO  MSOpenH264Encoder: sending IDR
+2021-05-04 12:17:32,593 INFO  Resolver is using DNS server(s):
+2021-05-04 12:17:32,593 INFO  	192.168.1.1
+2021-05-04 12:17:32,594 INFO  resolver_process_data dns_res_check() in progress
+2021-05-04 12:17:32,594 INFO  DNS resolution awaiting response, queued to main loop
+2021-05-04 12:17:32,606 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:32,615 INFO  sip6.linphone.org resolved to 54.37.202.229
+2021-05-04 12:17:32,615 INFO  channel 360618592: state RES_DONE
+2021-05-04 12:17:32,615 INFO  channel 360618592: state CONNECTING
+2021-05-04 12:17:32,615 INFO  Trying to connect to [TLS://54.37.202.229:5223]
+2021-05-04 12:17:32,724 INFO  Channel [360618592]: Connected at TCP level, now doing TLS handshake with cname=sip6.linphone.org
+2021-05-04 12:17:32,724 INFO  Channel [360618592]: SSL handshake in progress...
+2021-05-04 12:17:32,848 INFO  Found certificate depth=[2], flags=[]:
+cert. version     : 3
+serial number     : 44:AF:B0:80:D6:A3:27:BA:89:30:39:86:2E:F8:40:6B
+issuer name       : O=Digital Signature Trust Co., CN=DST Root CA X3
+subject name      : O=Digital Signature Trust Co., CN=DST Root CA X3
+issued  on        : 2000-09-30 21:12:19
+expires on        : 2021-09-30 14:01:15
+signed using      : RSA with SHA1
+RSA key size      : 2048 bits
+basic constraints : CA=true
+key usage         : Key Cert Sign, CRL Sign
+
+2021-05-04 12:17:32,848 INFO  Found certificate depth=[1], flags=[]:
+cert. version     : 3
+serial number     : 40:01:75:04:83:14:A4:C8:21:8C:84:A9:0C:16:CD:DF
+issuer name       : O=Digital Signature Trust Co., CN=DST Root CA X3
+subject name      : C=US, O=Let's Encrypt, CN=R3
+issued  on        : 2020-10-07 19:21:40
+expires on        : 2021-09-29 19:21:40
+signed using      : RSA with SHA-256
+RSA key size      : 2048 bits
+basic constraints : CA=true, max_pathlen=0
+key usage         : Digital Signature, Key Cert Sign, CRL Sign
+ext key usage     : TLS Web Server Authentication, TLS Web Client Authentication
+
+2021-05-04 12:17:32,848 INFO  Found certificate depth=[0], flags=[]:
+cert. version     : 3
+serial number     : 04:7D:E4:CB:5D:31:27:C6:A2:11:73:44:24:9E:8E:81:F7:18
+issuer name       : C=US, O=Let's Encrypt, CN=R3
+subject name      : CN=sip6.linphone.org
+issued  on        : 2021-04-11 06:51:28
+expires on        : 2021-07-10 06:51:28
+signed using      : RSA with SHA-256
+RSA key size      : 4096 bits
+basic constraints : CA=false
+subject alt name  : sip.linhome.org, sip.linphone.org, sip6.linhome.org, sip6.linphone.org
+key usage         : Digital Signature, Key Encipherment
+ext key usage     : TLS Web Server Authentication, TLS Web Client Authentication
+
+2021-05-04 12:17:32,858 INFO  Channel [360618592]: SSL handshake in progress...
+2021-05-04 12:17:32,981 INFO  Channel [360618592]: SSL handshake finished, SSL version is [TLSv1.2], selected ciphersuite is [TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384]
+2021-05-04 12:17:32,981 INFO  Channel has local address 192.168.1.178:52487
+2021-05-04 12:17:32,981 INFO  channel 360618592: state READY
+2021-05-04 12:17:32,981 INFO  Computing branch id z9hG4bK.pwaEMFr2B for message sent statelessly
+2021-05-04 12:17:32,982 INFO  channel [360618592]: message sent to [TLS://sip6.linphone.org:5223], size: [699] bytes
+ACK sip:suwa@71.179.24.186:53052;transport=tls;verified SIP/2.0
+Via: SIP/2.0/TLS 192.168.1.178:52487;rport;branch=z9hG4bK.pwaEMFr2B
+From: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=ajJ7tocxk
+To: <sip:suwa@sip.linphone.org>;tag=lsPP6Gy
+CSeq: 21 ACK
+Call-ID: s30kZst8jH
+Max-Forwards: 70
+Route: <sips:sip6.linphone.org:5223;lr>
+Proxy-Authorization:  Digest realm="sip.linphone.org", nonce="EvI75AAAAAA56Jr8AADWdctLabwAAAAA", algorithm=MD5, opaque="+GNywA==", username="suwasuwa",  uri="sip:suwa@sip.linphone.org", response="6c83bca08091e7fdb949924f244bbb3b", cnonce="eXCSeKaN0jnub0sA", nc=00000001, qop=auth
+User-Agent: VATRP/1.2.0 (belle-sip/1.6.1)
+Content-Length: 0
+
+
+2021-05-04 12:17:32,982 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:32,985 INFO  Thread processing load: audio=-2147483648	video=1075188110	text=-536870912
+2021-05-04 12:17:32,993 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:32,999 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:33,105 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:33,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:33,509 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:33,604 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:33,966 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:33,966 INFO  Thread processing load: audio=536870912	video=1074454646	text=-1610612736
+2021-05-04 12:17:33,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:34,009 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:34,105 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:34,360 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:34,377 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:34,378 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:34,495 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:34,510 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:34,606 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:34,969 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:34,969 INFO  Thread processing load: audio=0	video=1073990435	text=-536870912
+2021-05-04 12:17:34,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:35,009 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:35,106 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:35,364 INFO  Sending RTCP SR compound message on session [113041112].
+2021-05-04 12:17:35,378 INFO  MSAudio_stream_iterate[360313640], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:35,378 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:35,493 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:35,509 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:35,605 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:35,971 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:35,971 INFO  Thread processing load: audio=-2147483648	video=1074813683	text=0
+2021-05-04 12:17:35,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:36,009 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:36,105 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:36,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:36,509 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:36,605 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:36,759 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:36,776 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:36,776 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:36,982 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:36,982 INFO  Thread processing load: audio=-1073741824	video=1075274979	text=-536870912
+2021-05-04 12:17:36,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:37,009 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:37,106 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:37,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:37,510 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:37,598 INFO  msdscap: fps=-2147483648
+2021-05-04 12:17:37,605 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:37,984 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:37,984 INFO  Thread processing load: audio=-536870912	video=1074550830	text=1610612736
+2021-05-04 12:17:37,995 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:38,009 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:38,106 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:38,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:38,505 INFO  Sending RTCP SR compound message on session [113041112].
+2021-05-04 12:17:38,508 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:38,514 INFO  MSAudio_stream_iterate[360313640], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:38,514 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:38,558 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:38,576 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:38,576 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:38,605 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:38,966 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:38,966 INFO  Thread processing load: audio=1073741824	video=1074803823	text=-2147483648
+2021-05-04 12:17:38,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:39,009 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:39,105 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:39,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:39,509 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:39,605 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:39,970 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:39,970 INFO  Thread processing load: audio=-1610612736	video=1074787884	text=-1073741824
+2021-05-04 12:17:39,993 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:40,010 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:40,010 INFO  DTLS Receive RTCP packet len 408 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,011 INFO  DTLS Send RTCP packet len 121 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,011 INFO  DTLS Send RTCP packet len 1010 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,015 INFO  DTLS Receive RTP packet len 408 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,015 INFO  DTLS Send RTP packet len 121 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,015 INFO  DTLS Send RTP packet len 1010 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,016 INFO  DTLS Receive RTP packet len 408 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,016 INFO  DTLS Send RTP packet len 121 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,016 INFO  DTLS Send RTP packet len 1010 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,066 INFO  DTLS Send RTCP packet len 550 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,067 INFO  DTLS Send RTCP packet len 89 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,067 INFO  DTLS Send RTCP packet len 25 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,067 INFO  DTLS Receive RTP packet len 408 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,067 INFO  DTLS Send RTP packet len 121 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,068 INFO  DTLS Send RTP packet len 1010 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,071 INFO  DTLS Send RTP packet len 550 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,072 INFO  DTLS Send RTP packet len 89 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,072 INFO  DTLS Send RTP packet len 550 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,072 INFO  DTLS Send RTP packet len 25 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,072 INFO  DTLS Send RTP packet len 89 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,072 INFO  DTLS Receive RTCP packet len 408 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,072 INFO  DTLS Send RTCP packet len 121 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,073 INFO  DTLS Send RTCP packet len 1010 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,073 INFO  DTLS Send RTP packet len 25 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,074 INFO  DTLS Receive RTCP packet len 408 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,074 INFO  DTLS Send RTCP packet len 121 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,074 INFO  DTLS Send RTCP packet len 1010 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,135 INFO  DTLS Send RTCP packet len 550 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,135 INFO  DTLS Send RTCP packet len 89 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,136 INFO  DTLS Send RTCP packet len 25 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,156 INFO  DTLS Send RTP packet len 550 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,156 INFO  DTLS Send RTP packet len 89 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,156 INFO  DTLS Send RTP packet len 25 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,160 INFO  DTLS Send RTCP packet len 550 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,161 INFO  DTLS Send RTCP packet len 89 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,161 INFO  DTLS Send RTCP packet len 25 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,170 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:40,333 INFO  DTLS Receive RTP packet len 1010 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,334 INFO  DTLS Receive RTP packet len 1010 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,364 INFO  DTLS Receive RTP packet len 159 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,385 INFO  DTLS Receive RTP packet len 159 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:40,504 INFO  DTLS Receive RTP packet len 413 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,509 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:40,514 INFO  DTLS Receive RTP packet len 14 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,514 INFO  DTLS Receive RTCP packet len 1010 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,515 INFO  DTLS Receive RTP packet len 413 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,524 INFO  DTLS Receive RTP packet len 61 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,524 INFO  DTLS Send RTP packet len 14 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,524 INFO  DTLS Send RTP packet len 61 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,524 INFO  DTLS Handshake on RTP channel successful and fingerprints match, srtp protection profile 1
+2021-05-04 12:17:40,524 INFO  media_stream_set_srtp_recv_key(): key %02x..%02x stream sessions is [85]
+2021-05-04 12:17:40,525 INFO  media_stream_set_srtp_send_key(): key %02x..%02x stream sessions is [92]
+2021-05-04 12:17:40,525 INFO  DTLS Receive RTP packet len 14 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,535 INFO  DTLS Receive RTP packet len 61 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,535 INFO  DTLS Send RTP packet len 14 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,535 INFO  DTLS Send RTP packet len 61 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,536 INFO  DTLS Handshake on RTP channel successful and fingerprints match, srtp protection profile 1
+2021-05-04 12:17:40,536 INFO  media_stream_set_srtp_recv_key(): key %02x..%02x stream sessions is [60]
+2021-05-04 12:17:40,536 INFO  media_stream_set_srtp_send_key(): key %02x..%02x stream sessions is [127]
+2021-05-04 12:17:40,554 INFO  DTLS Receive RTCP packet len 159 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,604 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:40,655 INFO  DTLS Receive RTCP packet len 413 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,664 INFO  DTLS Receive RTCP packet len 14 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,674 INFO  DTLS Receive RTCP packet len 61 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,674 INFO  DTLS Send RTCP packet len 14 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,674 INFO  DTLS Send RTCP packet len 61 sessions: 284129632 rtp session 359904592
+2021-05-04 12:17:40,674 INFO  DTLS RTCP Handshake successful and fingerprints match, srtp protection profile 1
+2021-05-04 12:17:40,674 INFO  media_stream_set_srtcp_recv_key(): key %02x..%02x stream sessions is [91]
+2021-05-04 12:17:40,674 INFO  media_stream_set_srtcp_send_key(): key %02x..%02x stream sessions is [118]
+2021-05-04 12:17:40,675 INFO  DTLS Event dispatched to all: secrets are on for this stream
+2021-05-04 12:17:40,685 INFO  MSText_stream_iterate[284129624]: is encrypted 
+2021-05-04 12:17:40,715 INFO  DTLS Receive RTCP packet len 1010 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,754 INFO  DTLS Receive RTCP packet len 159 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,849 INFO  DTLS Receive RTP packet len 1010 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,875 INFO  DTLS Receive RTCP packet len 413 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,885 INFO  DTLS Receive RTCP packet len 14 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,895 INFO  DTLS Receive RTCP packet len 61 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,895 INFO  DTLS Send RTCP packet len 14 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,895 INFO  DTLS Send RTCP packet len 61 sessions: 360313648 rtp session 113041112
+2021-05-04 12:17:40,895 INFO  DTLS RTCP Handshake successful and fingerprints match, srtp protection profile 1
+2021-05-04 12:17:40,896 INFO  media_stream_set_srtcp_recv_key(): key %02x..%02x stream sessions is [83]
+2021-05-04 12:17:40,896 INFO  media_stream_set_srtcp_send_key(): key %02x..%02x stream sessions is [40]
+2021-05-04 12:17:40,896 INFO  DTLS Event dispatched to all: secrets are on for this stream
+2021-05-04 12:17:40,899 INFO  DTLS Receive RTP packet len 159 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:40,914 INFO  MSAudio_stream_iterate[360313640]: is encrypted 
+2021-05-04 12:17:40,914 INFO  Some streams are not encrypted
+2021-05-04 12:17:40,975 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:40,975 INFO  Thread processing load: audio=-536870912	video=1075379501	text=-1073741824
+2021-05-04 12:17:40,989 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:40,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:40,995 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:40,995 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:41,008 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:41,030 INFO  DTLS Receive RTP packet len 413 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,031 INFO  DTLS Receive RTCP packet len 408 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,031 INFO  DTLS Send RTCP packet len 121 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,032 INFO  DTLS Send RTCP packet len 1010 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,032 INFO  DTLS Send RTCP packet len 550 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,032 INFO  DTLS Send RTCP packet len 89 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,032 INFO  DTLS Send RTCP packet len 25 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,040 INFO  DTLS Receive RTP packet len 14 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,049 INFO  DTLS Receive RTP packet len 61 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,049 INFO  DTLS Send RTP packet len 14 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,049 INFO  DTLS Send RTP packet len 61 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,049 INFO  DTLS Handshake on RTP channel successful and fingerprints match, srtp protection profile 1
+2021-05-04 12:17:41,049 INFO  media_stream_set_srtp_recv_key(): key %02x..%02x stream sessions is [211]
+2021-05-04 12:17:41,049 INFO  media_stream_set_srtp_send_key(): key %02x..%02x stream sessions is [61]
+2021-05-04 12:17:41,105 INFO  Stun packet sent on rtcp for session [113041112]
+2021-05-04 12:17:41,226 INFO  MSAudioMixer [287318608] is entering bypass mode.
+2021-05-04 12:17:41,250 INFO  DTLS Receive RTCP packet len 1010 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,255 INFO  Samples are back.
+2021-05-04 12:17:41,299 INFO  DTLS Receive RTCP packet len 159 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,303 INFO  MSAudio stream [360313640]: receiving RTCP SR
+2021-05-04 12:17:41,303 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:41,379 INFO  DTLS Receive RTCP packet len 413 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,389 INFO  DTLS Receive RTCP packet len 14 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,400 INFO  DTLS Receive RTCP packet len 61 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,401 INFO  DTLS Send RTCP packet len 14 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,401 INFO  DTLS Send RTCP packet len 61 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,402 INFO  DTLS RTCP Handshake successful and fingerprints match, srtp protection profile 1
+2021-05-04 12:17:41,402 INFO  media_stream_set_srtcp_recv_key(): key %02x..%02x stream sessions is [208]
+2021-05-04 12:17:41,402 INFO  media_stream_set_srtcp_send_key(): key %02x..%02x stream sessions is [94]
+2021-05-04 12:17:41,402 INFO  DTLS Event dispatched to all: secrets are on for this stream
+2021-05-04 12:17:41,409 INFO  DTLS Receive RTCP packet len 1010 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,414 INFO  MSVideo_stream_iterate[284107216]: is encrypted 
+2021-05-04 12:17:41,414 INFO  All streams are encrypted key exchanged using DTLS
+2021-05-04 12:17:41,414 INFO  Forced encryption mandatory on call [286912624] due to SRTP-DTLS
+2021-05-04 12:17:41,419 INFO  DTLS Receive RTCP packet len 159 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,429 INFO  MSOpenH264Encoder: sending IDR
+2021-05-04 12:17:41,430 INFO  DTLS Receive RTCP packet len 413 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,439 INFO  DTLS Receive RTCP packet len 14 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,449 INFO  DTLS Receive RTCP packet len 61 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,449 INFO  DTLS Send RTCP packet len 14 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,449 INFO  DTLS Send RTCP packet len 61 sessions: 284107224 rtp session 359901624
+2021-05-04 12:17:41,490 INFO  OpenH264 decoder: [OpenH264] this = 0x15811670, Warning:parse_nal(), no exist Sequence Parameter Sets ahead of sequence when try to decode NAL(type:1).
+2021-05-04 12:17:41,490 INFO  OpenH264 decoder: [OpenH264] this = 0x15811670, Warning:parse_nal(), no exist Sequence Parameter Sets ahead of sequence when try to decode NAL(type:1).
+2021-05-04 12:17:41,490 INFO  Request sending of PLI on videostream [284107216]
+2021-05-04 12:17:41,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:41,510 INFO  Stun packet sent on rtcp for session [359901624]
+2021-05-04 12:17:41,520 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:41,537 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:41,537 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:41,599 INFO  Request sending of PLI on videostream [284107216]
+2021-05-04 12:17:41,629 INFO  Request sending of PLI on videostream [284107216]
+2021-05-04 12:17:41,639 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:41,642 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:41,642 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:41,645 INFO  Sending RTCP SR compound message on session [113041112].
+2021-05-04 12:17:41,658 INFO  Request sending of PLI on videostream [284107216]
+2021-05-04 12:17:41,662 INFO  MSAudio_stream_iterate[360313640], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:41,662 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:41,669 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:41,678 INFO  Request sending of PLI on videostream [284107216]
+2021-05-04 12:17:41,683 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:41,683 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:41,704 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:17:41,704 INFO  OpenH264: PLI requested
+2021-05-04 12:17:41,704 INFO  video_stream_process_rtcp stream [284107216] PLI count 1
+2021-05-04 12:17:41,704 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:41,718 INFO  Request sending of PLI on videostream [284107216]
+2021-05-04 12:17:41,724 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:17:41,724 INFO  OpenH264: PLI requested
+2021-05-04 12:17:41,724 INFO  video_stream_process_rtcp stream [284107216] PLI count 2
+2021-05-04 12:17:41,724 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:41,729 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:41,739 INFO  Request sending of PLI on videostream [284107216]
+2021-05-04 12:17:41,744 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:41,744 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:41,779 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:41,786 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:41,786 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:41,832 INFO  configure_itc(): format set to type=video;encoding=H264;vsize=320x240;fps=0.000000;fmtp=''
+2021-05-04 12:17:41,832 INFO  Detected video resolution changed to 320x240
+2021-05-04 12:17:41,847 INFO  First video frame decoded successfully
+2021-05-04 12:17:41,975 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:41,975 INFO  Thread processing load: audio=-1073741824	video=1075042375	text=536870912
+2021-05-04 12:17:41,993 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:42,351 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:17:42,351 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:42,470 INFO  MSOpenH264Encoder: sending IDR
+2021-05-04 12:17:42,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:42,630 INFO  msdscap: fps=536870912
+2021-05-04 12:17:42,649 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:42,658 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:42,658 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:42,985 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:42,985 INFO  Thread processing load: audio=1073741824	video=1075305896	text=-536870912
+2021-05-04 12:17:42,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:43,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:43,865 INFO  MSAudio stream [360313640]: receiving RTCP SR
+2021-05-04 12:17:43,865 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:43,966 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:43,966 INFO  Thread processing load: audio=1073741824	video=1074958404	text=-2147483648
+2021-05-04 12:17:43,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:44,470 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:44,480 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:44,480 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:44,495 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:44,542 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:17:44,542 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:44,646 INFO  Sending RTCP SR compound message on session [113041112].
+2021-05-04 12:17:44,666 INFO  MSAudio_stream_iterate[360313640], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:44,666 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:44,973 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:44,973 INFO  Thread processing load: audio=-1073741824	video=1075665189	text=-1073741824
+2021-05-04 12:17:44,995 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:45,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:45,977 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:45,977 INFO  Thread processing load: audio=-1073741824	video=1075300488	text=1073741824
+2021-05-04 12:17:45,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:46,105 INFO  jitter buffer stable: target-size: 0 ms, effective-size: 1081032704 (min: 1610612736 nom: 1081214566, max: 40)
+2021-05-04 12:17:46,105 INFO  jitter buffer rls stats: count=238, offset=%g clock_ratio=%g, capped_offset=-2046552541 capped_clock_ratio=1084773847, max_ts_deviation=-189982874 prev_max_ts_deviation=1072716413, deviation=785796592, RLS VARIABLES: P[0][0]=0, P[1][0]=1072716414, P[0][1]=0, P[1][1]=1084943872
+2021-05-04 12:17:46,399 INFO  jitter buffer stable: target-size: 104857600 ms, effective-size: 1079574528 (min: 536870912 nom: 1079087070, max: 40)
+2021-05-04 12:17:46,400 INFO  jitter buffer rls stats: count=364, offset=%g clock_ratio=%g, capped_offset=1334442487 capped_clock_ratio=1086333280, max_ts_deviation=-327270390 prev_max_ts_deviation=1072698025, deviation=2083899441, RLS VARIABLES: P[0][0]=-536870912, P[1][0]=1072698025, P[0][1]=0, P[1][1]=1086428160
+2021-05-04 12:17:46,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:46,570 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:46,570 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:46,570 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:46,590 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:17:46,590 INFO  MSQualityIndicator[359070832][video], remote statistics available:
+	----------Loss rate: %3.1f%%
+	%-20s: %3.1fms
+	%-20s: %3.1fms
+2021-05-04 12:17:46,590 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:46,849 INFO  OpenH264 decoder: FPS=536870912
+2021-05-04 12:17:46,849 INFO  OpenH264 decoder: Frame size: 320x240
+2021-05-04 12:17:46,978 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:46,978 INFO  Thread processing load: audio=1073741824	video=1075674529	text=-1073741824
+2021-05-04 12:17:46,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:47,226 INFO  MSAudio stream [360313640]: receiving RTCP SR
+2021-05-04 12:17:47,226 INFO  MSQualityIndicator[359070544][audio], remote statistics available:
+	----------Loss rate: %3.1f%%
+	%-20s: %3.1fms
+	%-20s: %3.1fms
+2021-05-04 12:17:47,226 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:47,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:47,654 INFO  Sending RTCP SR compound message on session [113041112].
+2021-05-04 12:17:47,655 INFO  MSAudio_stream_iterate[360313640], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:47,656 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:47,669 INFO  msdscap: fps=-536870912
+2021-05-04 12:17:47,985 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:47,985 INFO  Thread processing load: audio=1073741824	video=1075363607	text=-1073741824
+2021-05-04 12:17:47,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:48,410 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:48,412 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:48,412 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:48,493 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:17:48,493 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:48,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:48,966 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:48,966 INFO  Thread processing load: audio=1610612736	video=1074879601	text=536870912
+2021-05-04 12:17:48,993 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:49,493 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:49,681 INFO  MSAudio stream [360313640]: receiving RTCP SR
+2021-05-04 12:17:49,681 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:49,836 INFO  Sending RTCP SR compound message on session [113041112].
+2021-05-04 12:17:49,845 INFO  MSAudio_stream_iterate[360313640], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:49,845 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:49,968 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:49,968 INFO  Thread processing load: audio=-2147483648	video=1075222827	text=-536870912
+2021-05-04 12:17:49,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:50,209 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:50,214 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:50,214 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:50,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:50,872 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:17:50,872 INFO  MSQualityIndicator[359070832][video], remote statistics available:
+	----------Loss rate: %3.1f%%
+	%-20s: %3.1fms
+	%-20s: %3.1fms
+2021-05-04 12:17:50,872 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:50,974 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:50,974 INFO  Thread processing load: audio=1073741824	video=1074983173	text=-1610612736
+2021-05-04 12:17:50,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:51,146 INFO  jitter buffer stable: target-size: 0 ms, effective-size: 1081032704 (min: -536870912 nom: 1080820318, max: 40)
+2021-05-04 12:17:51,146 INFO  jitter buffer rls stats: count=490, offset=%g clock_ratio=%g, capped_offset=380594463 capped_clock_ratio=1084903311, max_ts_deviation=1026198284 prev_max_ts_deviation=1072700929, deviation=785796845, RLS VARIABLES: P[0][0]=1073741824, P[1][0]=1072700929, P[0][1]=0, P[1][1]=1081749504
+2021-05-04 12:17:51,398 INFO  jitter buffer stable: target-size: 1296039936 ms, effective-size: 1079444912 (min: 0 nom: 1078812303, max: 40)
+2021-05-04 12:17:51,398 INFO  jitter buffer rls stats: count=704, offset=%g clock_ratio=%g, capped_offset=1234839996 capped_clock_ratio=1086430812, max_ts_deviation=-1233399845 prev_max_ts_deviation=1072694200, deviation=2083900203, RLS VARIABLES: P[0][0]=-1073741824, P[1][0]=1072694200, P[0][1]=0, P[1][1]=1086337024
+2021-05-04 12:17:51,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:51,776 INFO  MSAudio stream [360313640]: receiving RTCP SR
+2021-05-04 12:17:51,776 INFO  MSQualityIndicator[359070544][audio], remote statistics available:
+	----------Loss rate: %3.1f%%
+	%-20s: %3.1fms
+	%-20s: %3.1fms
+2021-05-04 12:17:51,776 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:51,889 INFO  OpenH264 decoder: FPS=-536870912
+2021-05-04 12:17:51,889 INFO  OpenH264 decoder: Frame size: 320x240
+2021-05-04 12:17:51,981 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:51,981 INFO  Thread processing load: audio=-2147483648	video=1075344362	text=-1073741824
+2021-05-04 12:17:51,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:51,999 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:52,001 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:52,002 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:52,185 INFO  Sending RTCP SR compound message on session [113041112].
+2021-05-04 12:17:52,186 INFO  MSAudio_stream_iterate[360313640], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:52,186 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:52,493 INFO  Stun packet sent for session [359904592]
+2021-05-04 12:17:52,493 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:52,699 INFO  msdscap: fps=-536870912
+2021-05-04 12:17:52,965 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:17:52,965 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:52,985 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:52,985 INFO  Thread processing load: audio=1073741824	video=1075099181	text=-1610612736
+2021-05-04 12:17:52,993 INFO  Stun packet sent for session [359904592]
+2021-05-04 12:17:52,993 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:53,494 INFO  Stun packet sent for session [359904592]
+2021-05-04 12:17:53,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:53,669 INFO  MSOpenH264Encoder: sending IDR
+2021-05-04 12:17:53,899 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:53,911 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:53,911 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:53,975 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:53,975 INFO  Thread processing load: audio=-1610612736	video=1074870450	text=-536870912
+2021-05-04 12:17:53,994 INFO  Stun packet sent for session [359904592]
+2021-05-04 12:17:53,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:54,125 INFO  Sending RTCP SR compound message on session [113041112].
+2021-05-04 12:17:54,137 INFO  MSAudio_stream_iterate[360313640], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:54,137 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:54,219 INFO  MSAudio stream [360313640]: receiving RTCP SR
+2021-05-04 12:17:54,219 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:54,494 INFO  Stun packet sent for session [359904592]
+2021-05-04 12:17:54,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:54,710 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:17:54,711 INFO  MSQualityIndicator[359070832][video], remote statistics available:
+	----------Loss rate: %3.1f%%
+	%-20s: %3.1fms
+	%-20s: %3.1fms
+2021-05-04 12:17:54,711 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:54,977 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:54,977 INFO  Thread processing load: audio=0	video=1075072770	text=-1610612736
+2021-05-04 12:17:54,994 INFO  Stun packet sent for session [359904592]
+2021-05-04 12:17:54,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:55,494 INFO  Stun packet sent for session [359904592]
+2021-05-04 12:17:55,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:55,889 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:55,899 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:55,899 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:55,980 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:55,980 INFO  Thread processing load: audio=536870912	video=1075320798	text=1073741824
+2021-05-04 12:17:55,994 INFO  Stun packet sent for session [359904592]
+2021-05-04 12:17:55,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:56,015 INFO  Samples are back.
+2021-05-04 12:17:56,165 INFO  jitter buffer stable: target-size: 146800640 ms, effective-size: 1080868864 (min: -2147483648 nom: 1080501095, max: 40)
+2021-05-04 12:17:56,165 INFO  jitter buffer rls stats: count=740, offset=%g clock_ratio=%g, capped_offset=227294669 capped_clock_ratio=1085006573, max_ts_deviation=-2104900486 prev_max_ts_deviation=1072694344, deviation=785797047, RLS VARIABLES: P[0][0]=-2147483648, P[1][0]=1072694344, P[0][1]=0, P[1][1]=1083548672
+2021-05-04 12:17:56,296 INFO  Samples are back.
+2021-05-04 12:17:56,449 INFO  jitter buffer stable: target-size: -1728053248 ms, effective-size: 1079987040 (min: 1610612736 nom: 1079801751, max: 40)
+2021-05-04 12:17:56,449 INFO  jitter buffer rls stats: count=1044, offset=%g clock_ratio=%g, capped_offset=-21369035 capped_clock_ratio=1086468220, max_ts_deviation=-792813799 prev_max_ts_deviation=1072693315, deviation=2083900495, RLS VARIABLES: P[0][0]=-536870912, P[1][0]=1072693315, P[0][1]=0, P[1][1]=1086718208
+2021-05-04 12:17:56,455 INFO  MSAudio stream [360313640]: receiving RTCP SR
+2021-05-04 12:17:56,455 INFO  MSQualityIndicator[359070544][audio], remote statistics available:
+	----------Loss rate: %3.1f%%
+	%-20s: %3.1fms
+	%-20s: %3.1fms
+2021-05-04 12:17:56,455 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:56,495 INFO  Stun packet sent for session [359904592]
+2021-05-04 12:17:56,496 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:56,575 INFO  Samples are back.
+2021-05-04 12:17:56,802 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:17:56,802 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:56,855 INFO  Samples are back.
+2021-05-04 12:17:56,930 INFO  OpenH264 decoder: FPS=536870912
+2021-05-04 12:17:56,930 INFO  OpenH264 decoder: Frame size: 320x240
+2021-05-04 12:17:56,986 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:56,986 INFO  Thread processing load: audio=0	video=1075241117	text=-536870912
+2021-05-04 12:17:56,994 INFO  Stun packet sent for session [359904592]
+2021-05-04 12:17:56,995 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:57,085 INFO  Sending RTCP SR compound message on session [113041112].
+2021-05-04 12:17:57,089 INFO  MSAudio_stream_iterate[360313640], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:57,089 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:57,494 INFO  Stun packet sent for session [359904592]
+2021-05-04 12:17:57,495 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:57,544 INFO  Sending RTCP SR compound message on session [359904592].
+2021-05-04 12:17:57,558 INFO  MSText_stream_iterate[284129624], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:57,558 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:57,729 INFO  msdscap: fps=536870912
+2021-05-04 12:17:57,968 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:57,968 INFO  Thread processing load: audio=1073741824	video=1074874333	text=-1610612736
+2021-05-04 12:17:57,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:58,009 INFO  Changing [client] [INVITE] transaction [287399992], from state [COMPLETED] to [TERMINATED]
+2021-05-04 12:17:58,009 INFO  Client INVITE transaction [287399992] terminated
+2021-05-04 12:17:58,019 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:58,029 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:58,029 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:58,493 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:58,850 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:17:58,850 INFO  MSQualityIndicator[359070832][video], remote statistics available:
+	----------Loss rate: %3.1f%%
+	%-20s: %3.1fms
+	%-20s: %3.1fms
+2021-05-04 12:17:58,850 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:58,973 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:58,973 INFO  Thread processing load: audio=-1073741824	video=1074573088	text=-1610612736
+2021-05-04 12:17:58,993 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:59,045 INFO  Sending RTCP SR compound message on session [113041112].
+2021-05-04 12:17:59,054 INFO  MSAudio_stream_iterate[360313640], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:59,054 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:59,494 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:17:59,494 INFO  Sending RTCP SR compound message on session [359904592].
+2021-05-04 12:17:59,507 INFO  MSText_stream_iterate[284129624], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:59,507 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:59,735 INFO  Samples are back.
+2021-05-04 12:17:59,779 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:17:59,793 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:17:59,794 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:17:59,976 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:17:59,976 INFO  Thread processing load: audio=-1073741824	video=1074920142	text=-536870912
+2021-05-04 12:17:59,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:18:00,243 INFO  OpenH264 encoder applyBitrate done
+2021-05-04 12:18:00,407 INFO  MSAudio stream [360313640]: receiving RTCP SR
+2021-05-04 12:18:00,407 INFO  MSQualityIndicator[359070544][audio], remote statistics available:
+	----------Loss rate: %3.1f%%
+	%-20s: %3.1fms
+	%-20s: %3.1fms
+2021-05-04 12:18:00,407 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:00,493 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:18:00,984 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:18:00,984 INFO  Thread processing load: audio=-536870912	video=1075292123	text=1073741824
+2021-05-04 12:18:00,994 INFO  Stun packet sent on rtcp for session [359904592]
+2021-05-04 12:18:01,004 INFO  MSText stream [284129624]: receiving RTCP RR
+2021-05-04 12:18:01,004 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:01,066 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:18:01,066 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:01,195 INFO  jitter buffer stable: target-size: -230686720 ms, effective-size: 1080705023 (min: -536870912 nom: 1080634806, max: 40)
+2021-05-04 12:18:01,195 INFO  jitter buffer rls stats: count=992, offset=%g clock_ratio=%g, capped_offset=-2033264513 capped_clock_ratio=1085039534, max_ts_deviation=-2076932958 prev_max_ts_deviation=1072692436, deviation=785797111, RLS VARIABLES: P[0][0]=-2147483648, P[1][0]=1072692436, P[0][1]=0, P[1][1]=1081348096
+2021-05-04 12:18:01,488 INFO  jitter buffer stable: target-size: -1434451968 ms, effective-size: 1079659360 (min: 1610612736 nom: 1079879609, max: 40)
+2021-05-04 12:18:01,488 INFO  jitter buffer rls stats: count=1355, offset=%g clock_ratio=%g, capped_offset=-414744106 capped_clock_ratio=1086460989, max_ts_deviation=152070839 prev_max_ts_deviation=1072693430, deviation=2083900439, RLS VARIABLES: P[0][0]=0, P[1][0]=1072693430, P[0][1]=0, P[1][1]=1083572224
+2021-05-04 12:18:01,528 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:18:01,537 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:18:01,537 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:01,905 INFO  Sending RTCP SR compound message on session [113041112].
+2021-05-04 12:18:01,906 INFO  MSAudio_stream_iterate[360313640], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:18:01,906 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:01,958 INFO  OpenH264 decoder: FPS=536870912
+2021-05-04 12:18:01,958 INFO  OpenH264 decoder: Frame size: 320x240
+2021-05-04 12:18:01,968 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:18:01,968 INFO  Thread processing load: audio=0	video=1074585224	text=1073741824
+2021-05-04 12:18:02,769 INFO  msdscap: fps=-1073741824
+2021-05-04 12:18:02,974 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:18:02,974 INFO  Thread processing load: audio=-1610612736	video=1074878766	text=0
+2021-05-04 12:18:03,159 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:18:03,159 INFO  MSQualityIndicator[359070832][video], remote statistics available:
+	----------Loss rate: %3.1f%%
+	%-20s: %3.1fms
+	%-20s: %3.1fms
+2021-05-04 12:18:03,159 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:03,200 INFO  MSAudio stream [360313640]: receiving RTCP SR
+2021-05-04 12:18:03,200 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:03,519 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:18:03,527 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:18:03,527 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:03,671 INFO  MSText stream [284129624]: receiving RTCP RR
+2021-05-04 12:18:03,671 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:03,773 INFO  Changing [client] [INVITE] transaction [287401672], from state [ACCEPTED] to [TERMINATED]
+2021-05-04 12:18:03,773 INFO  Client INVITE transaction [287401672] terminated
+2021-05-04 12:18:03,979 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:18:03,979 INFO  Thread processing load: audio=1073741824	video=1075187534	text=536870912
+2021-05-04 12:18:04,265 INFO  OpenH264 encoder applyBitrate done
+2021-05-04 12:18:04,729 INFO  MSOpenH264Encoder: sending IDR
+2021-05-04 12:18:04,983 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:18:04,984 INFO  Thread processing load: audio=-1073741824	video=1075065647	text=-1610612736
+2021-05-04 12:18:05,187 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:18:05,187 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:05,309 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:18:05,311 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:18:05,311 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:05,620 INFO  MSAudio stream [360313640]: receiving RTCP SR
+2021-05-04 12:18:05,620 INFO  MSQualityIndicator[359070544][audio], remote statistics available:
+	----------Loss rate: %3.1f%%
+	%-20s: %3.1fms
+	%-20s: %3.1fms
+2021-05-04 12:18:05,620 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:05,624 INFO  Sending RTCP RR compound message on session [359904592].
+2021-05-04 12:18:05,641 INFO  MSText_stream_iterate[284129624], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:18:05,642 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:05,735 INFO  Sending RTCP SR compound message on session [113041112].
+2021-05-04 12:18:05,744 INFO  MSAudio_stream_iterate[360313640], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:18:05,744 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:05,968 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:18:05,968 INFO  Thread processing load: audio=-536870912	video=1074725212	text=1073741824
+2021-05-04 12:18:06,204 INFO  jitter buffer stable: target-size: -83886080 ms, effective-size: 1080541183 (min: -1610612736 nom: 1080553130, max: 40)
+2021-05-04 12:18:06,204 INFO  jitter buffer rls stats: count=1242, offset=%g clock_ratio=%g, capped_offset=1544109736 capped_clock_ratio=1085045381, max_ts_deviation=1976926734 prev_max_ts_deviation=1072692033, deviation=785797123, RLS VARIABLES: P[0][0]=-2147483648, P[1][0]=1072692033, P[0][1]=0, P[1][1]=1081458688
+2021-05-04 12:18:06,490 INFO  jitter buffer stable: target-size: -1140850688 ms, effective-size: 1079331680 (min: -2147483648 nom: 1079180039, max: 40)
+2021-05-04 12:18:06,490 INFO  jitter buffer rls stats: count=1660, offset=%g clock_ratio=%g, capped_offset=176581904 capped_clock_ratio=1086458251, max_ts_deviation=638242428 prev_max_ts_deviation=1072693464, deviation=2083900418, RLS VARIABLES: P[0][0]=536870912, P[1][0]=1072693464, P[0][1]=0, P[1][1]=1083731968
+2021-05-04 12:18:06,729 INFO  MSText stream [284129624]: receiving RTCP SR
+2021-05-04 12:18:06,729 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:06,914 INFO  MSVideo stream [284107216]: receiving RTCP SR
+2021-05-04 12:18:06,914 INFO  MSQualityIndicator[359070832][video], remote statistics available:
+	----------Loss rate: %3.1f%%
+	%-20s: %3.1fms
+	%-20s: %3.1fms
+2021-05-04 12:18:06,915 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:06,976 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:18:06,976 INFO  Thread processing load: audio=-2147483648	video=1075089030	text=-536870912
+2021-05-04 12:18:06,980 INFO  OpenH264 decoder: FPS=-1073741824
+2021-05-04 12:18:06,980 INFO  OpenH264 decoder: Frame size: 320x240
+2021-05-04 12:18:07,149 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:18:07,161 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:18:07,161 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:07,798 INFO  msdscap: fps=1610612736
+2021-05-04 12:18:07,816 INFO  Samples are back.
+2021-05-04 12:18:07,977 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:18:07,977 INFO  Thread processing load: audio=0	video=1074911715	text=-536870912
+2021-05-04 12:18:08,084 INFO  Sending RTCP RR compound message on session [359904592].
+2021-05-04 12:18:08,102 INFO  MSText_stream_iterate[284129624], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:18:08,102 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:08,715 INFO  Sending RTCP SR compound message on session [113041112].
+2021-05-04 12:18:08,717 INFO  MSAudio_stream_iterate[360313640], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:18:08,717 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:08,919 INFO  Sending RTCP SR compound message on session [359901624].
+2021-05-04 12:18:08,924 INFO  MSVideo_stream_iterate[284107216], local statistics available:
+	Local current jitter buffer size: %5.1fms
+2021-05-04 12:18:08,924 INFO  Linphone core [112522800] notified [call_stats_updated]
+2021-05-04 12:18:08,985 INFO  Bandwidth usage for call [286912624]:
+	RTP  audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+	RTCP audio=[d=%5.1f,u=%5.1f], video=[d=%5.1f,u=%5.1f], text=[d=%5.1f,u=%5.1f] kbits/sec
+2021-05-04 12:18:08,985 INFO  Thread processing load: audio=-2147483648	video=1075348772	text=-536870912
+2021-05-04 12:18:09,947 INFO  channel [286956432]: received [489] new bytes from [TLS://sip.linphone.org:5223]:
+BYE sip:suwasuwa@71.179.24.186:52362;transport=tls SIP/2.0
+Via: SIP/2.0/TLS sip6.linphone.org:5223;rport;branch=z9hG4bK.gZ1Um6Bg1vcHXXZ9DHBNmNFFvg
+Via: SIP/2.0/TLS 192.168.0.121:53083;branch=z9hG4bK.Vhwp813o6;rport=53083;received=71.179.24.186
+From: <sip:suwa@sip.linphone.org>;tag=lsPP6Gy
+To: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=ajJ7tocxk
+CSeq: 111 BYE
+Call-ID: s30kZst8jH
+Max-Forwards: 69
+User-Agent: VATRP/1.2.0 (belle-sip/1.6.1)
+Content-Length: 0
+
+2021-05-04 12:18:09,968 INFO  channel [286956432]: received [2] new bytes from [TLS://sip.linphone.org:5223]:
+
+
+2021-05-04 12:18:09,976 INFO  channel [286956432] [491] bytes parsed
+2021-05-04 12:18:09,977 INFO  Changing [server] [BYE] transaction [363226952], from state [INIT] to [TRYING]
+2021-05-04 12:18:09,977 INFO  Changing [server] [BYE] transaction [363226952], from state [TRYING] to [COMPLETED]
+2021-05-04 12:18:09,978 INFO  channel [360618592]: message sent to [TLS://sip6.linphone.org:5223], size: [483] bytes
+SIP/2.0 200 Ok
+Via: SIP/2.0/TLS sip6.linphone.org:5223;received=54.37.202.229;rport;branch=z9hG4bK.gZ1Um6Bg1vcHXXZ9DHBNmNFFvg
+Via: SIP/2.0/TLS 192.168.0.121:53083;received=71.179.24.186;branch=z9hG4bK.Vhwp813o6;rport=53083
+From: <sip:suwa@sip.linphone.org>;tag=lsPP6Gy
+To: "Purple VATRP 8 2402457844" <sip:suwasuwa@sip.linphone.org>;tag=ajJ7tocxk
+Call-ID: s30kZst8jH
+CSeq: 111 BYE
+User-Agent: VATRP/1.2.0 (belle-sip/1.6.1)
+Supported: replaces, outbound
+Content-Length: 0
+
+
+2021-05-04 12:18:09,978 INFO  Dialog [112801624]: now updated by transaction [363226952].
+2021-05-04 12:18:09,978 INFO  Dialog [112801624] deleted (is_expired=0)
+2021-05-04 12:18:09,978 INFO  Current call terminated...
+2021-05-04 12:18:09,979 INFO  Writing echo canceler state, 43720 bytes
+2021-05-04 12:18:09,996 INFO  Shutting down sound device (playing: 0) (input-output: 1916) (notplayed: 0)
+2021-05-04 12:18:10,030 INFO  Filter MSRtpRecv is not scheduled; nothing to do.
+2021-05-04 12:18:10,030 INFO  ===========================================================
+2021-05-04 12:18:10,030 INFO               AUDIO SESSION'S RTP STATISTICS                
+2021-05-04 12:18:10,031 INFO  -----------------------------------------------------------
+2021-05-04 12:18:10,031 INFO  sent                                       1896 packets
+2021-05-04 12:18:10,031 INFO                                                0 duplicated packets
+2021-05-04 12:18:10,031 INFO                                           326112 bytes  
+2021-05-04 12:18:10,032 INFO  received                                   1320 packets
+2021-05-04 12:18:10,032 INFO                                                0 duplicated packets
+2021-05-04 12:18:10,032 INFO                                           227040 bytes  
+2021-05-04 12:18:10,032 INFO  incoming delivered to the app            225492 bytes  
+2021-05-04 12:18:10,032 INFO  incoming cumulative lost                      0 packets
+2021-05-04 12:18:10,032 INFO  incoming received too late                    9 packets
+2021-05-04 12:18:10,032 INFO  incoming bad formatted                        0 packets
+2021-05-04 12:18:10,032 INFO  incoming discarded (queue overflow)           0 packets
+2021-05-04 12:18:10,032 INFO  sent rtcp                                    11 packets
+2021-05-04 12:18:10,032 INFO  received rtcp                                10 packets
+2021-05-04 12:18:10,032 INFO  ===========================================================
+2021-05-04 12:18:10,033 INFO  ms_filter_unlink: MSWinSndRead:287316432,0-->MSEqualizer:287317840,0
+2021-05-04 12:18:10,033 INFO  ms_filter_unlink: MSEqualizer:287317840,0-->MSSpeexEC:287309840,1
+2021-05-04 12:18:10,033 INFO  ms_filter_unlink: MSSpeexEC:287309840,1-->MSVolume:287319696,0
+2021-05-04 12:18:10,033 INFO  ms_filter_unlink: MSVolume:287319696,0-->MSAudioMixer:287318800,0
+2021-05-04 12:18:10,033 INFO  ms_filter_unlink: MSAudioMixer:287318800,0-->MSG722Enc:287318736,0
+2021-05-04 12:18:10,033 INFO  ms_filter_unlink: MSG722Enc:287318736,0-->MSRtpSend:287308112,0
+2021-05-04 12:18:10,033 INFO  ms_filter_unlink: MSRtpRecv:287316304,0-->MSG722Dec:287318032,0
+2021-05-04 12:18:10,033 INFO  ms_filter_unlink: MSG722Dec:287318032,0-->MSDtmfGen:287316368,0
+2021-05-04 12:18:10,033 INFO  ms_filter_unlink: MSDtmfGen:287316368,0-->MSVolume:287319760,0
+2021-05-04 12:18:10,033 INFO  ms_filter_unlink: MSVolume:287319760,0-->MSEqualizer:287318928,0
+2021-05-04 12:18:10,034 INFO  ms_filter_unlink: MSEqualizer:287318928,0-->MSAudioMixer:287318608,0
+2021-05-04 12:18:10,034 INFO  ms_filter_unlink: MSFilePlayer:287318416,0-->MSResample:287319248,0
+2021-05-04 12:18:10,034 INFO  ms_filter_unlink: MSResample:287319248,0-->MSAudioMixer:287318608,1
+2021-05-04 12:18:10,034 INFO  ms_filter_unlink: MSAudioMixer:287318608,0-->MSSpeexEC:287309840,0
+2021-05-04 12:18:10,034 INFO  ms_filter_unlink: MSSpeexEC:287309840,0-->MSWinSndWrite:287316496,0
+2021-05-04 12:18:10,034 INFO  ===========================================================
+2021-05-04 12:18:10,034 INFO                    FILTER USAGE STATISTICS                  
+2021-05-04 12:18:10,034 INFO  Name                Count     Time/tick (ms)      CPU Usage
+2021-05-04 12:18:10,034 INFO  -----------------------------------------------------------
+2021-05-04 12:18:10,034 INFO  ---MSDrawDibDisplay -----1530 ----------476906885 1074486306
+2021-05-04 12:18:10,035 INFO  ------MSWinSndWrite ------946 ----------771007857 1072558162
+2021-05-04 12:18:10,035 INFO  ----------MSSpeexEC -----2212 ---------2072763250 1071124411
+2021-05-04 12:18:10,035 INFO  ----------MSRtpRecv ----11490 ----------119605738 1067908543
+2021-05-04 12:18:10,035 INFO  ----------MSRtpSend ----11298 ---------1606764029 1067589664
+2021-05-04 12:18:10,035 INFO  ------MSOpenH264Dec ------731 ---------2088809231 1069885585
+2021-05-04 12:18:10,035 INFO  ----------MSG722Enc ------946 ----------117918849 1068885378
+2021-05-04 12:18:10,035 INFO  ------MSOpenH264Enc -----1036 ----------786927470 1067728437
+2021-05-04 12:18:10,035 INFO  -------MSAudioMixer -----7578 ---------1783383307 1061810415
+2021-05-04 12:18:10,035 INFO  -------MSJpegWriter -----1758 ----------725187770 1063428342
+2021-05-04 12:18:10,035 INFO  ----------MSItcSink ------731 ---------1783702265 1064722924
+2021-05-04 12:18:10,035 INFO  -----------MSVolume -----2511 ----------109425918 1061820115
+2021-05-04 12:18:10,036 INFO  -------MSWinSndRead -----3789 ---------1058443128 1061243572
+2021-05-04 12:18:10,036 INFO  ----------MSPixConv -----1036 ---------1018863987 1062181197
+2021-05-04 12:18:10,036 INFO  ----------MSG722Dec -----3789 ---------1058443128 1060194996
+2021-05-04 12:18:10,036 INFO  ------MSRTT4103Sink -----3755 ------------------0 ---------0
+2021-05-04 12:18:10,036 INFO  ----MSRTT4103Source -----3755 ------------------0 ---------0
+2021-05-04 12:18:10,036 INFO  ---------MSSizeConv -----1036 ------------------0 ---------0
+2021-05-04 12:18:10,036 INFO  ------------MSDsCap -----3754 ------------------0 ---------0
+2021-05-04 12:18:10,036 INFO  --------MSEqualizer -----2511 ------------------0 ---------0
+2021-05-04 12:18:10,036 INFO  ---------MSResample --------0 ------------------0 ---------0
+2021-05-04 12:18:10,036 INFO  ----------MSDtmfGen -----3789 ------------------0 ---------0
+2021-05-04 12:18:10,037 INFO  -------MSFilePlayer -----3789 ------------------0 ---------0
+2021-05-04 12:18:10,037 INFO  ---------MSVoidSink --------0 ------------------0 ---------0
+2021-05-04 12:18:10,037 INFO  --------------MSTee -----2489 ------------------0 ---------0
+2021-05-04 12:18:10,037 INFO  ===========================================================
+2021-05-04 12:18:10,313 INFO  Filter MSRtpRecv is not scheduled; nothing to do.
+2021-05-04 12:18:10,314 INFO  ===========================================================
+2021-05-04 12:18:10,314 INFO               VIDEO SESSION'S RTP STATISTICS                
+2021-05-04 12:18:10,314 INFO  -----------------------------------------------------------
+2021-05-04 12:18:10,314 INFO  sent                                       4401 packets
+2021-05-04 12:18:10,314 INFO                                                0 duplicated packets
+2021-05-04 12:18:10,314 INFO                                          1521480 bytes  
+2021-05-04 12:18:10,314 INFO  received                                   1808 packets
+2021-05-04 12:18:10,314 INFO                                                0 duplicated packets
+2021-05-04 12:18:10,314 INFO                                          1079565 bytes  
+2021-05-04 12:18:10,315 INFO  incoming delivered to the app           1079565 bytes  
+2021-05-04 12:18:10,315 INFO  incoming cumulative lost                      0 packets
+2021-05-04 12:18:10,315 INFO  incoming received too late                    0 packets
+2021-05-04 12:18:10,315 INFO  incoming bad formatted                        0 packets
+2021-05-04 12:18:10,315 INFO  incoming discarded (queue overflow)           0 packets
+2021-05-04 12:18:10,315 INFO  sent rtcp                                    20 packets
+2021-05-04 12:18:10,315 INFO  received rtcp                                15 packets
+2021-05-04 12:18:10,315 INFO  ===========================================================
+2021-05-04 12:18:10,315 INFO  ms_filter_unlink: MSDsCap:359871008,0-->MSPixConv:287317904,0
+2021-05-04 12:18:10,315 INFO  ms_filter_unlink: MSPixConv:287317904,0-->MSTee:359870624,0
+2021-05-04 12:18:10,316 INFO  ms_filter_unlink: MSTee:359870624,0-->MSSizeConv:287317968,0
+2021-05-04 12:18:10,316 INFO  ms_filter_unlink: MSSizeConv:287317968,0-->MSOpenH264Enc:359869728,0
+2021-05-04 12:18:10,316 INFO  ms_filter_unlink: MSOpenH264Enc:359869728,0-->MSRtpSend:287310416,0
+2021-05-04 12:18:10,316 INFO  ms_filter_unlink: MSTee:359870624,2-->MSJpegWriter:359870240,0
+2021-05-04 12:18:10,316 INFO  ms_filter_unlink: MSRtpRecv:287318352,0-->MSTee:287310544,0
+2021-05-04 12:18:10,316 INFO  ms_filter_unlink: MSTee:287310544,1-->MSItcSink:287310672,0
+2021-05-04 12:18:10,316 INFO  ms_filter_unlink: MSTee:287310544,0-->MSOpenH264Dec:287319440,0
+2021-05-04 12:18:10,316 INFO  ms_filter_unlink: MSOpenH264Dec:287319440,0-->MSTee:287318544,0
+2021-05-04 12:18:10,316 INFO  ms_filter_unlink: MSTee:287318544,1-->MSJpegWriter:287318224,0
+2021-05-04 12:18:10,316 INFO  ms_filter_unlink: MSTee:287318544,0-->MSDrawDibDisplay:287318160,0
+2021-05-04 12:18:10,317 INFO  ms_filter_unlink: MSTee:359870624,1-->MSDrawDibDisplay:287318160,1
+2021-05-04 12:18:10,317 INFO  DSCapture::Release
+2021-05-04 12:18:10,318 INFO  ===========================================================
+2021-05-04 12:18:10,318 INFO               TEXT SESSION'S RTP STATISTICS                
+2021-05-04 12:18:10,318 INFO  -----------------------------------------------------------
+2021-05-04 12:18:10,318 INFO  sent                                          3 packets
+2021-05-04 12:18:10,318 INFO                                                0 duplicated packets
+2021-05-04 12:18:10,319 INFO                                               72 bytes  
+2021-05-04 12:18:10,319 INFO  received                                      3 packets
+2021-05-04 12:18:10,319 INFO                                                0 duplicated packets
+2021-05-04 12:18:10,319 INFO                                               72 bytes  
+2021-05-04 12:18:10,319 INFO  incoming delivered to the app                72 bytes  
+2021-05-04 12:18:10,319 INFO  incoming cumulative lost                      0 packets
+2021-05-04 12:18:10,319 INFO  incoming received too late                    0 packets
+2021-05-04 12:18:10,319 INFO  incoming bad formatted                        0 packets
+2021-05-04 12:18:10,319 INFO  incoming discarded (queue overflow)           0 packets
+2021-05-04 12:18:10,319 INFO  sent rtcp                                     2 packets
+2021-05-04 12:18:10,320 INFO  received rtcp                                 3 packets
+2021-05-04 12:18:10,320 INFO  ===========================================================
+2021-05-04 12:18:10,320 INFO  ms_filter_unlink: MSRTT4103Source:364167984,0-->MSRtpSend:287312912,0
+2021-05-04 12:18:10,320 INFO  ms_filter_unlink: MSRtpRecv:364169392,0-->MSRTT4103Sink:364168624,0
+2021-05-04 12:18:10,320 INFO  ===========================================================
+2021-05-04 12:18:10,320 INFO                    FILTER USAGE STATISTICS                  
+2021-05-04 12:18:10,320 INFO  Name                Count     Time/tick (ms)      CPU Usage
+2021-05-04 12:18:10,320 INFO  -----------------------------------------------------------
+2021-05-04 12:18:10,320 INFO  ---MSDrawDibDisplay -----1530 ----------476906885 1074486306
+2021-05-04 12:18:10,320 INFO  ------MSWinSndWrite ------946 ----------771007857 1072558162
+2021-05-04 12:18:10,320 INFO  ----------MSSpeexEC -----2212 ---------2072763250 1071124411
+2021-05-04 12:18:10,321 INFO  ----------MSRtpRecv ----11518 ---------1760269173 1067904881
+2021-05-04 12:18:10,321 INFO  ----------MSRtpSend ----11326 ---------1034401941 1067586728
+2021-05-04 12:18:10,321 INFO  ------MSOpenH264Dec ------731 ---------2088809231 1069885585
+2021-05-04 12:18:10,321 INFO  ----------MSG722Enc ------946 ----------117918849 1068885378
+2021-05-04 12:18:10,321 INFO  ------MSOpenH264Enc -----1036 ----------786927470 1067728437
+2021-05-04 12:18:10,321 INFO  -------MSAudioMixer -----7578 ---------1783383307 1061810415
+2021-05-04 12:18:10,321 INFO  -------MSJpegWriter -----1758 ----------725187770 1063428342
+2021-05-04 12:18:10,321 INFO  ----------MSItcSink ------731 ---------1783702265 1064722924
+2021-05-04 12:18:10,321 INFO  -----------MSVolume -----2511 ----------109425918 1061820115
+2021-05-04 12:18:10,322 INFO  -------MSWinSndRead -----3789 ---------1058443128 1061243572
+2021-05-04 12:18:10,322 INFO  ----------MSPixConv -----1036 ---------1018863987 1062181197
+2021-05-04 12:18:10,322 INFO  ----------MSG722Dec -----3789 ---------1058443128 1060194996
+2021-05-04 12:18:10,322 INFO  ------MSRTT4103Sink -----3783 ------------------0 ---------0
+2021-05-04 12:18:10,322 INFO  ----MSRTT4103Source -----3783 ------------------0 ---------0
+2021-05-04 12:18:10,322 INFO  ---------MSSizeConv -----1036 ------------------0 ---------0
+2021-05-04 12:18:10,322 INFO  ------------MSDsCap -----3754 ------------------0 ---------0
+2021-05-04 12:18:10,322 INFO  --------MSEqualizer -----2511 ------------------0 ---------0
+2021-05-04 12:18:10,322 INFO  ---------MSResample --------0 ------------------0 ---------0
+2021-05-04 12:18:10,323 INFO  ----------MSDtmfGen -----3789 ------------------0 ---------0
+2021-05-04 12:18:10,323 INFO  -------MSFilePlayer -----3789 ------------------0 ---------0
+2021-05-04 12:18:10,323 INFO  ---------MSVoidSink --------0 ------------------0 ---------0
+2021-05-04 12:18:10,323 INFO  --------------MSTee -----2489 ------------------0 ---------0
+2021-05-04 12:18:10,323 INFO  ===========================================================
+2021-05-04 12:18:10,323 INFO  Call 286912624: moving from state LinphoneCallStreamsRunning to LinphoneCallEnd
+2021-05-04 12:18:10,323 INFO  Notifying soundcard that we don't need it anymore for calls.
+2021-05-04 12:18:10,323 INFO  check OS support for qwave.lib
+2021-05-04 12:18:10,324 INFO  Stopping ZRTP context on session [0]
+2021-05-04 12:18:10,325 INFO  ZRTP context destroyed
+2021-05-04 12:18:10,325 INFO  DTLS-SRTP context destroyed
+2021-05-04 12:18:10,335 INFO  MSAudio MSTicker thread exiting
+2021-05-04 12:18:10,335 INFO  check OS support for qwave.lib
+2021-05-04 12:18:10,336 INFO  Stopping ZRTP context on session [0]
+2021-05-04 12:18:10,338 INFO  ZRTP context destroyed
+2021-05-04 12:18:10,338 INFO  DTLS-SRTP context destroyed
+2021-05-04 12:18:10,340 INFO  MSVideo MSTicker thread exiting
+2021-05-04 12:18:10,342 INFO  check OS support for qwave.lib
+2021-05-04 12:18:10,342 INFO  DTLS-SRTP context destroyed
+2021-05-04 12:18:10,344 INFO  MSText MSTicker thread exiting
+2021-05-04 12:18:10,355 INFO  Linphone core [112522800] notified [call_log_updated]
+2021-05-04 12:18:10,355 INFO  Resetting the current call
+2021-05-04 12:18:10,355 INFO  OnCallStateChanged: State - LinphoneCallEnd, CallPtr - 286912624, Message: Call ended
+2021-05-04 12:18:10,356 INFO  Call removed from list. Call - 286912624. Total calls in list: 0
+2021-05-04 12:18:10,357 INFO  Linphone core [112522800] notified [call_state_changed]
+2021-05-04 12:18:10,360 INFO  CallStateChanged: State - Closed. Call: 286912624
+2021-05-04 12:18:10,360 INFO  CallStateChanged: Result Code - 0. Message: Call ended Call: 286912624
+2021-05-04 12:18:10,377 INFO  Changing [server] [BYE] transaction [363226952], from state [COMPLETED] to [TERMINATED]
+2021-05-04 12:18:10,377 INFO  Server BYE transaction [363226952] terminated
+2021-05-04 12:18:10,377 INFO  Dialog [112801624] terminated for op [286949576]
+2021-05-04 12:18:10,397 INFO  Call 286912624: moving from state LinphoneCallEnd to LinphoneCallReleased
+2021-05-04 12:18:10,397 INFO  OnCallStateChanged: State - LinphoneCallReleased, CallPtr - 286912624, Message: Call released
+2021-05-04 12:18:10,397 INFO     calling linphone_call_unref
+2021-05-04 12:18:10,397 INFO     passed unref
+2021-05-04 12:18:10,397 INFO  Linphone core [112522800] notified [call_state_changed]
+2021-05-04 12:18:10,397 INFO  Call [286912624] freed.
+2021-05-04 12:18:10,397 INFO  op [286949576] : set_or_update_dialog() current=[112801624] new=[0]
+2021-05-04 12:18:10,398 INFO  Transaction [363226952] deleted
+2021-05-04 12:18:10,398 INFO  Destroying op [286949576] of type [SalOpCall]
+2021-05-04 12:18:10,398 INFO  Transaction [287399992] deleted
+2021-05-04 12:18:10,398 INFO  Transaction [287401672] deleted
+2021-05-04 12:18:28,237 INFO  Registration state changed from LinphoneRegistrationOk to LinphoneRegistrationProgress. Reason: LinphoneReasonNone
+2021-05-04 12:18:28,239 INFO  linphone_proxy_config_is_server_config_changed : 1
+2021-05-04 12:18:28,239 INFO  Refresher [23478704] stopped.
+2021-05-04 12:18:28,239 INFO  Publish params have not changed on proxy config [113088776]
+2021-05-04 12:18:28,239 INFO  Registration state changed from LinphoneRegistrationProgress to LinphoneRegistrationCleared. Reason: LinphoneReasonNone
+2021-05-04 12:18:28,240 INFO  linphone_core_find_auth_info(): returning auth info username=suwasuwa, realm=sip.linphone.org
+2021-05-04 12:18:28,240 INFO  Auth info found for [suwasuwa] realm [sip.linphone.org]
+2021-05-04 12:18:28,240 INFO  Transaction [287265920] deleted

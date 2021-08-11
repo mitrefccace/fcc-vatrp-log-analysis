@@ -1,0 +1,22 @@
+filebeat.inputs:
+- type: log
+  paths:
+    - /usr/share/elasticsearch/data/logs/*.log
+  fields:
+    type: vatrp
+  multiline.type: pattern
+  multiline.pattern: '^[0-9]{4}-[0-9]{2}-[0-9]{2}'
+  multiline.negate: true
+  multiline.match: after
+filebeat.config.modules.path: ${path.config}/modules.d/*.yml    
+output:
+  logstash:
+    enabled: true
+    hosts:
+      - logstash:5044 
+setup.kibana:
+    host: "localhost:5601" 
+    username: "elastic"  
+    password: changeme
+    logging.level: error
+ssl.verification_mode: none
